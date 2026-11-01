@@ -1,0 +1,13 @@
+== I1  SEC workload in the 30 days before the public flip (standardized log count of registration filings)
+  workload by division (median filings, all / same office): {'wl_all': {0: 781.0, 1: 738.0}, 'wl_office': {0: 32.0, 1: 43.0}}
+  EDGAR-wide               second    0.767 (t=16.16)  workload   -0.008 (t=-0.11)  second x workload    0.040 (t= 0.30)  elite x workload    0.027 (t= 0.42)  N=828
+  same office              second    0.765 (t= 7.81)  workload    0.025 (t= 0.41)  second x workload   -0.131 (t=-0.74)  elite x workload    0.001 (t= 0.03)  N=654
+  EDGAR-wide, amendments   second    0.366 (t= 7.33)  workload    0.014 (t= 0.49)  second x workload   -0.010 (t=-0.16)  elite x workload   -0.043 (t=-2.16)  N=828
+
+== I2  Nasdaq liquidity rule, effective 5 Aug 2019 (IPOs priced on or after)
+  second-division IPOs before/after: 17 38   share of all IPOs before/after: {0: 0.036, 1: 0.108}
+  median proceeds $M of second division before/after: {0: 15.0, 1: 15.0}
+  lnpub    second    0.901 (t= 5.49)  second x post-rule   -0.240 (t=-1.14)  N=828
+  lnamend  second    0.440 (t= 3.49)  second x post-rule   -0.107 (t=-0.59)  N=828
+  lnconf   second    0.163 (t= 1.09)  second x post-rule   -0.047 (t=-0.29)  N=752
+  lnpub, two years each side: second x post-rule   -0.455 (t=-1.15)  N=414  n_second=20

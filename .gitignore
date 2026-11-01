@@ -1,0 +1,6 @@
+data/edgar/
+data/external/
+data/analysis.csv
+data/edgar_timeline.csv
+data/universe/*_cache.json
+__pycache__/

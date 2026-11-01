@@ -1,0 +1,9 @@
+pandas>=2.2
+numpy>=2.0
+statsmodels>=0.14
+scipy>=1.13
+patsy>=1.0
+requests>=2.32
+openpyxl>=3.1
+xlrd>=2.0
+yfinance>=0.2  # only for 14

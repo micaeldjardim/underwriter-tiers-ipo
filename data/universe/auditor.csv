@@ -1,0 +1,2000 @@
+key,auditor,big4,big4_firm,lockup_days
+REGI|20120118.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+GWRE|20120124.0,KPMG LLP,1.0,kpmg,180.0
+VSTM|20120126.0,Experts Ernst & Young LLP,1.0,ey,180.0
+SLCA|20120131.0,Grant Thornton LLP,0.0,,180.0
+AVG|20120201.0,,,,180.0
+GWAY|20120201.0,Grant Thornton LLP,0.0,,180.0
+MTDR|20120201.0,Grant Thornton LLP,0.0,,
+CEMP|20120203.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CZR|20120207.0,Deloitte & Touche LLP,1.0,deloitte,
+EPAM|20120207.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RNDY|20120207.0,Ernst & Young LLP,1.0,ey,180.0
+CCXI|20120208.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+FX|20120208.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GSE|20120209.0,"BDO USA, LLP",0.0,,
+SYNC|20120209.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+HMST|20120210.0,,,,
+BCOV|20120217.0,Ernst & Young LLP,1.0,ey,180.0
+CERE|20120221.0,KPMG LLP,1.0,kpmg,
+BV|20120223.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PRLB|20120223.0,Ernst & Young LLP,1.0,ey,180.0
+HLSS|20120228.0,Deloitte & Touche LLP,1.0,deloitte,
+YELP|20120301.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SIR|20120306.0,Ernst & Young LLP,1.0,ey,180.0
+ALSN|20120314.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+DWRE|20120314.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MTSI|20120314.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CSTE|20120321.0,"Kost, Forer, Gabbay and Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+ET|20120321.0,KPMG LLP,1.0,kpmg,180.0
+VNTV|20120321.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+VIPS|20120322.0,Deloitte Touche Tohmatsu,1.0,deloitte,180.0
+WHZ|20120322.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BNNY|20120327.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RM|20120327.0,"McGladrey & Pullen, LLP",0.0,,180.0
+VCRA|20120327.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PRSS|20120328.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MACK|20120328.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MM|20120328.0,Ernst & Young LLP,1.0,ey,180.0
+RXN|20120328.0,Ernst &Young LLP,1.0,ey,180.0
+ENPH|20120329.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+GLOG|20120329.0,"Deloitte Hadjipavlou, Sofianos & Cambanis S.A.",1.0,deloitte,180.0
+EAC|20120410.0,Grant Thornton LLP,0.0,,
+FET|20120411.0,"Pannell Kerr Forster of Texas, P.C. and Deloitte LLP, respectively, each",1.0,deloitte,180.0
+MRC|20120411.0,Ernst & Young LLP,1.0,ey,180.0
+OAK|20120411.0,PricewaterhouseCoopers LLP,1.0,pwc,
+DCIN|20120417.0,EisnerAmper LLP,0.0,,180.0
+SDR|20120417.0,Hein & Associates LLP,0.0,,180.0
+SPLK|20120418.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TUMI|20120418.0,Grant Thornton LLP,0.0,,180.0
+BLOX|20120419.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+MPO|20120419.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PFPT|20120419.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CLIR|20120424.0,Gumbiner Savett Inc.,0.0,,
+ENVI|20120424.0,"BDO USA, LLP",0.0,,180.0
+ACRE|20120425.0,"York, will act as counsel to the underwriters. EXPERTS Ernst & Young LLP",1.0,ey,365.0
+EDG|20120427.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SUPN|20120430.0,Ernst & Young LLP,1.0,ey,
+EVER|20120502.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ROYT|20120502.0,"Netherland, Sewell & Associates, Inc.",0.0,,180.0
+CG|20120502.0,,,,
+PDH|20120503.0,Ernst & Young LLP,1.0,ey,180.0
+TLYS|20120503.0,Deloitte & Touche LLP,1.0,deloitte,
+ADNC|20120509.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+WAGE|20120509.0,EisnerAmper LLP,0.0,,180.0
+WMC|20120509.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+EVAC|20120510.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+IRG|20120510.0,"PricewaterhouseCoopers LLP, or PwC",1.0,pwc,180.0
+FB|20120517.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+EQM|20120626.0,Ernst & Young LLP,1.0,ey,
+TSRO|20120627.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+EXA|20120628.0,other auditors as described in Note 2 to the consolidated financial statements) of PricewaterhouseCoopers LLP,1.0,pwc,
+NOW|20120628.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+DRTX|20120718.0,KPMG LLP,1.0,kpmg,180.0
+FIVE|20120718.0,KPMG LLP,1.0,kpmg,180.0
+KYAK|20120719.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PANW|20120719.0,Ernst & Young LLP,1.0,ey,180.0
+CHUY|20120723.0,"McGladrey LLP (formerly McGladrey & Pullen, LLP)",0.0,,180.0
+NGVC|20120724.0,KPMG LLP,1.0,kpmg,180.0
+HPTX|20120725.0,PricewaterhouseCoopers LLP,1.0,pwc,
+NTI|20120725.0,PricewaterhouseCoopers LLP,1.0,pwc,
+AMRE|20120726.0,,,,180.0
+ELOQ|20120802.0,KPMG LLP,1.0,kpmg,180.0
+GMED|20120802.0,KPMG LLP,1.0,kpmg,180.0
+BLMN|20120808.0,Ernst & Young Terco Auditores Independentes S.S.,1.0,ey,180.0
+PSMI|20120808.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+MANU|20120809.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PFMT|20120809.0,KPMG LLP,1.0,kpmg,180.0
+HCLP|20120815.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CBF|20120919.0,,,,180.0
+NBHC|20120919.0,,,,
+SRC|20120919.0,Ernst & Young LLP,1.0,ey,180.0
+SUSP|20120919.0,Ernst & Young LLP,1.0,ey,180.0
+TRLA|20120919.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SANME|20120925.0,,,,
+QLYS|20120927.0,Grant Thornton LLP,0.0,,180.0
+SMLP|20120927.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LOCK|20121002.0,Ernst & Young LLP,1.0,ey,180.0
+BERY|20121003.0,Ernst & Young LLP,1.0,ey,180.0
+LXFR|20121003.0,Ernst & Young LLP,1.0,ey,
+FLTX|20121004.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RGLS|20121004.0,"Goodwin Procter LLP, Boston, Massachusetts. Experts Ernst & Young LLP",1.0,ey,180.0
+AMBA|20121009.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ANFI|20121010.0,Grant Thornton India LLP,0.0,,180.0
+ICPT|20121010.0,KPMG LLP,1.0,kpmg,180.0
+KYTH|20121010.0,Experts Ernst & Young LLP,1.0,ey,180.0
+RLGY|20121010.0,,,,
+SSTK|20121010.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FANG|20121011.0,Grant Thornton LLP,0.0,,180.0
+LNCO|20121011.0,Ernst & Young LLP,1.0,ey,
+WDAY|20121011.0,EXPERTS Ernst & Young LLP,1.0,ey,
+SDLP|20121018.0,,,,
+LGP|20121024.0,Grant Thornton LLP,0.0,,180.0
+MPLX|20121025.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+WWAV|20121026.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DKL|20121101.0,Ernst & Young LLP,1.0,ey,180.0
+RH|20121101.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SXE|20121101.0,Deloitte & Touche LLP,1.0,deloitte,
+ATOS|20121107.0,,,,
+RKUS|20121115.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+WHLR|20121116.0,"Cherry, Bekaert & Holland, L.L.P.",0.0,,180.0
+ALDW|20121119.0,KPMG LLP,1.0,kpmg,
+YY|20121120.0,,,,
+WGP|20121206.0,KPMG LLP,1.0,kpmg,180.0
+PBF|20121212.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SCTY|20121212.0,Ernst & Young LLP,1.0,ey,180.0
+SBY|20121213.0,Ernst & Young LLP,1.0,ey,180.0
+SPPP|20121219.0,,,,
+USAC|20130114.0,KPMG LLP,1.0,kpmg,
+CVRR|20130116.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CONE|20130117.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+NCLH|20130117.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SXCP|20130117.0,Ernst & Young LLP,1.0,ey,180.0
+BFAM|20130125.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LIPO|20130125.0,"Gibson, Dunn & Crutcher LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+LAND|20130128.0,"PricewaterhouseCoopers, LLP",1.0,pwc,
+STML|20130128.0,Experts Ernst & Young LLP,1.0,ey,180.0
+TPH|20130130.0,Ernst & Young LLP,1.0,ey,
+KBIO|20130131.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+ZTS|20130131.0,KPMG LLP,1.0,kpmg,180.0
+BCC|20130205.0,KPMG LLP,1.0,kpmg,180.0
+XONE|20130206.0,ParenteBeard LLC,0.0,,
+NSLP|20130207.0,"BDO USA, LLP",0.0,,
+ZFC|20130207.0,PricewaterhouseCoopers LLP,1.0,pwc,270.0
+CNOB|20130211.0,Crowe Horwath LLP,0.0,,180.0
+ORC|20130214.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+XOOM|20130214.0,KPMG LLP,1.0,kpmg,
+IPDN|20130305.0,"Marcum, LLP",0.0,,
+APAM|20130306.0,PricewaterhouseCoopers LLP,1.0,pwc,
+SSNI|20130312.0,Ernst & Young LLP,1.0,ey,180.0
+MODN|20130319.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TTPH|20130319.0,Ernst & Young LLP,1.0,ey,180.0
+AVIV|20130320.0,Ernst & Young LLP,1.0,ey,180.0
+ENTA|20130320.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OAKS|20130321.0,Grant Thornton LLP,0.0,,180.0
+MRIN|20130321.0,PricewaterhouseCoopers LLP,1.0,pwc,
+WSTC|20130322.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+NVEE.|20130327.0,"Salberg & Company, P.A.",0.0,,
+PF|20130328.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+IBTX|20130402.0,McGladrey LLP,0.0,,180.0
+KNOP|20130409.0,Ernst & Young AS,1.0,ey,180.0
+TMHC|20130409.0,,,,
+CMRX|20130410.0,"Davis Polk & Wardwell LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+EVTC|20130411.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OMTH|20130411.0,Latham & Watkins LLP. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+FWM|20130416.0,Grant Thornton LLP,0.0,,180.0
+HASI|20130417.0,Ernst & Young LLP,1.0,ey,
+I|20130417.0,KPMG LLP,1.0,kpmg,180.0
+TAM|20130417.0,Ernst & Young Bedrijfsrevisoren BCVBA,1.0,ey,180.0
+HAWK|20130418.0,Deloitte & Touche LLP,1.0,deloitte,
+SEAS|20130418.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+EARN|20130501.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+VOYA|20130501.0,,,,
+INSY|20130502.0,"BDO USA, LLP",0.0,,
+QIWI|20130502.0,Ernst & Young LLC,1.0,ey,180.0
+AHH|20130507.0,,,,
+CYNI|20130508.0,Ernst & Young LLP,1.0,ey,180.0
+EMES|20130508.0,"BDO USA, LLP",0.0,,
+RCPT|20130508.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+TSC|20130508.0,KPMG LLP,1.0,kpmg,
+BIOA.|20130509.0,Deloitte & Associés,1.0,deloitte,180.0
+NBCB|20130509.0,Ernst & Young LLP,1.0,ey,
+TEP|20130513.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AMBI|20130515.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+WLH|20130515.0,,,,
+MKTO|20130516.0,KPMG LLP,1.0,kpmg,180.0
+DATA|20130516.0,PricewaterhouseCoopers LLP,1.0,pwc,
+ADHD|20130521.0,Kost Forer Gabbay & Kasierer (a Member of Ernst & Young Global),1.0,ey,180.0
+PTLA|20130521.0,"California, in connection with the offering. Experts Ernst & Young LLP",1.0,ey,180.0
+ECOM|20130522.0,"Ernst & Young, LLP",1.0,ey,
+CSTM|20130522.0,,,,180.0
+PGEM|20130522.0,Ernst & Young LLP,1.0,ey,180.0
+BRSS|20130523.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+EPZM|20130530.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+LITB|20130605.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP (1),1.0,deloitte,180.0
+RCAP|20130605.0,TABLE OF CONTENTS EXPERTS WeiserMazars LLP,0.0,,180.0
+TXTR|20130606.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GIMO|20130611.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+COTY|20130612.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BLUE|20130618.0,McGladrey LLP,0.0,,180.0
+PTCT|20130619.0,Experts Ernst & Young LLP,1.0,ey,180.0
+THST|20130619.0,"Burr Pilger Mayer, Inc.",0.0,,
+GOGO|20130620.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ESPR|20130625.0,Ernst & Young LLP,1.0,ey,180.0
+LXFT|20130625.0,Ernst & Young LLC,1.0,ey,180.0
+NSTG|20130625.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PETX|20130626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CDW|20130626.0,Ernst & Young LLP,1.0,ey,180.0
+HDS|20130626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SAMG|20130626.0,Deloitte & Touche LLP,1.0,deloitte,
+TRMR|20130626.0,Ernst & Young LLP,1.0,ey,180.0
+RNA|20130627.0,,,,180.0
+NDLS|20130628.0,Ernst & Young LLP,1.0,ey,180.0
+NYLD|20130716.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OMED|20130717.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+UCP|20130717.0,Deloitte & Touche LLP,1.0,deloitte,
+DRII|20130718.0,"BDO USA, LLP",0.0,,180.0
+DOC|20130718.0,"Plante & Moran, PLLC",0.0,,180.0
+SALE|20130718.0,Ernst & Young LLP,1.0,ey,180.0
+REXR|20130718.0,,,,360.0
+PSXP|20130722.0,Ernst & Young LLP,1.0,ey,180.0
+AGIO|20130723.0,Ernst & Young LLP,1.0,ey,180.0
+HTBX|20130723.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+JONE|20130723.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CNAT|20130724.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+ONTX|20130724.0,Ernst & Young LLP,1.0,ey,
+WCIC|20130724.0,Ernst & Young LLP,1.0,ey,180.0
+LIQD|20130725.0,KPMG LLP,1.0,kpmg,
+FISH|20130725.0,KPMG LLP,1.0,kpmg,180.0
+AMH|20130731.0,"Statement, have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+ASC|20130731.0,"Ernst & Young, Dublin, Ireland",1.0,ey,180.0
+SFM|20130731.0,PricewaterhouseCoopers LLP,1.0,pwc,
+ATHL|20130801.0,Ernst & Young LLP,1.0,ey,
+CTRL|20130801.0,,,,
+MBII|20130801.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+YUME|20130806.0,"PricewaterhouseCoopers, LLP",1.0,pwc,
+FOXF|20130807.0,Grant Thornton LLP,0.0,,180.0
+XON|20130807.0,McGladrey LLP,0.0,,180.0
+CVT|20130808.0,KPMG LLP,1.0,kpmg,180.0
+FI|20130808.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+QEPM|20130808.0,PricewaterhouseCoopers LLP,1.0,pwc,
+STCK|20130808.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+WPT|20130808.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+IRT|20130813.0,Grant Thornton LLP,0.0,,180.0
+EVHC|20130814.0,Ernst & Young LLP,1.0,ey,180.0
+TPRE|20130814.0,Ernst & Young Ltd.,1.0,ey,180.0
+RGDO|20130822.0,Grant Thornton LLP,0.0,,
+OCIR|20130913.0,Deloitte & Touche LLP,1.0,deloitte,
+BNFT|20130917.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+VLRS|20130917.0,"Mancera, S.C.",0.0,,180.0
+XLRN|20130918.0,Ernst & Young LLP,1.0,ey,
+FPRX|20130918.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+BIND|20130919.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MYCC|20130919.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FEYE|20130919.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FUEL|20130919.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+EVOK|20130925.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+FMI|20130925.0,Ernst & Young LLP,1.0,ey,
+OPHT|20130925.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+AAOI|20130926.0,Grant Thornton LLP,0.0,,180.0
+COVS|20130926.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MONT|20130926.0,,,,180.0
+ENZY|20130927.0,"Kesselman, a member firm of PricewaterhouseCoopers International Limited",1.0,pwc,180.0
+PEGI|20130927.0,Ernst & Young LLP,1.0,ey,
+PINC|20130927.0,Ernst & Young LLP,1.0,ey,180.0
+RNG|20130927.0,KPMG LLP,1.0,kpmg,180.0
+VMEM|20130927.0,KPMG LLP,1.0,kpmg,180.0
+FATE|20131001.0,"Lewis & Bockius LLP, Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,
+BURL|20131002.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ESRT|20131002.0,,,,180.0
+RMAX|20131002.0,KPMG LLP,1.0,kpmg,180.0
+CHMI|20131004.0,Ernst & Young LLP,1.0,ey,180.0
+OCIP|20131004.0,KPMG LLP,1.0,kpmg,180.0
+PBPB|20131004.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LDRH|20131009.0,KPMG LLP,1.0,kpmg,180.0
+QTS|20131009.0,,,,
+SFXE|20131009.0,"BDO USA, LLP",0.0,,180.0
+AR|20131010.0,KPMG LLP,1.0,kpmg,180.0
+MGNX|20131010.0,"Pickering Hale and Dorr LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+SGM|20131010.0,"Richey, May & Co., LLP",0.0,,180.0
+WNRL|20131010.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PAGP|20131016.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+LEAF|20131016.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+VEEV|20131016.0,KPMG LLP,1.0,kpmg,180.0
+ADMA|20131017.0,CohnReznick LLP,0.0,,
+VJET|20131018.0,,,,180.0
+AERI|20131025.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+COMM|20131025.0,Ernst & Young LLP,1.0,ey,180.0
+SRLP|20131025.0,Ernst & Young LLP,1.0,ey,180.0
+BRX|20131030.0,Ernst & Young LLP,1.0,ey,
+CRTO|20131030.0,Deloitte & Associés,1.0,deloitte,180.0
+SCAI|20131030.0,Ernst & Young LLP,1.0,ey,180.0
+VCYT|20131030.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+WUBA|20131031.0,"Kost, Forer, Gabbay and Kasierer, a member of Ernst & Young Global Limited",1.0,ey,180.0
+ESNT|20131031.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MMI|20131031.0,Ernst & Young LLP,1.0,ey,
+TCS|20131101.0,"Ernst and Young, LLP",0.0,,180.0
+QUNR|20131101.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+ARCX|20131106.0,Ernst & Young LLP,1.0,ey,
+CUDA|20131106.0,Ernst & Young LLP,1.0,ey,180.0
+BCRH|20131106.0,PricewaterhouseCoopers Ltd.,1.0,pwc,
+KPTI|20131106.0,McGladrey LLP,0.0,,180.0
+WIX|20131106.0,"Kost, Forer, Gabbay and Kasierer, a member of Ernst & Young Global Limited",1.0,ey,180.0
+LGIH|20131107.0,Ernst & Young LLP,1.0,ey,
+MVNR|20131107.0,"BDO USA, LLP",0.0,,180.0
+MEP|20131107.0,,,,
+NCFT|20131107.0,Grant Thornton LLP,0.0,,180.0
+TWTR|20131107.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JGW|20131108.0,Ernst & Young LLP,1.0,ey,180.0
+NMIH|20131108.0,"BDO USA, LLP",0.0,,
+CHGG|20131113.0,"California, is counsel to the underwriters. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+DLNG|20131113.0,Ernst & Young (Hellas) Certified Auditors Accountants S.A.,1.0,ey,180.0
+STAY|20131113.0,,,,
+HMHC|20131114.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TNDM|20131114.0,Ernst & Young LLP,1.0,ey,180.0
+RLYP|20131115.0,Experts Ernst & Young LLP,1.0,ey,180.0
+ZU|20131115.0,Deloitte & Touche LLP,1.0,deloitte,
+NVGS|20131121.0,KPMG LLP,1.0,kpmg,180.0
+WBAI|20131122.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+IPWR|20131122.0,Gumbiner Savett Inc.,0.0,,
+OXFD|20131122.0,Ernst & Young LLP,1.0,ey,180.0
+GOMO|20131122.0,,,,180.0
+VNCE|20131122.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+XNCR|20131202.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+ATHM|20131210.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+VLP|20131210.0,KPMG LLP,1.0,kpmg,180.0
+ARMK|20131212.0,Deloitte Touche Tohmatsu LLC,1.0,deloitte,180.0
+CTT|20131212.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+HLT|20131212.0,Ernst & Young LLP,1.0,ey,180.0
+KIN|20131212.0,KMJ Corbin & Company LLP,0.0,,180.0
+TLOG|20131212.0,Ernst & Young LLP,1.0,ey,
+CQH|20131213.0,Ernst & Young LLP,1.0,ey,180.0
+FGL|20131213.0,KPMG LLP,1.0,kpmg,180.0
+NMBL|20131213.0,"Goodrich & Rosati, P.C., Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,
+AMC|20131218.0,Deloitte & Touche LLP,1.0,deloitte,
+GLYC|20140110.0,Ernst & Young LLP,1.0,ey,180.0
+CELP|20140115.0,,,,
+HELI|20140117.0,Ernst & Young LLP,1.0,ey,180.0
+EPE|20140117.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RSPP|20140117.0,Grant Thornton LLP,0.0,,180.0
+SC|20140123.0,Deloitte & Touche LLP,1.0,deloitte,
+CRCM|20140124.0,Ernst & Young LLP,1.0,ey,180.0
+RICE|20140124.0,Ernst & Young LLP,1.0,ey,180.0
+CLDN|20140130.0,"Latham & Watkins LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+DRNA|20140130.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CARA|20140131.0,Ernst & Young LLP,1.0,ey,180.0
+SNOW|20140131.0,,,,180.0
+MBUU|20140131.0,McGladrey LLP,0.0,,180.0
+NWHM|20140131.0,Ernst & Young LLP,1.0,ey,
+TRVN|20140131.0,"Ernst & Young, LLP",1.0,ey,180.0
+RARE|20140131.0,"Latham & Watkins LLP, Costa Mesa, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+ASPX|20140205.0,"Latham & Watkins LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+BIOC|20140205.0,,,,180.0
+CBPX|20140205.0,Ernst & Young LLP,1.0,ey,180.0
+GNCA|20140205.0,Ernst & Young LLP,1.0,ey,
+QURE|20140205.0,,,,180.0
+EGLT|20140206.0,Grant Thornton LLP,0.0,,180.0
+EBIO|20140206.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+LADR|20140206.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RVNC|20140206.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ARGS|20140207.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NRX|20140211.0,,,,180.0
+EGRX|20140212.0,"BDO USA, LLP",0.0,,180.0
+FLXN|20140212.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TLMR|20140212.0,Crowe Horwath LLP,0.0,,
+AMDA|20140213.0,Ernst & Young LLP,1.0,ey,180.0
+IBP|20140213.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+INGN|20140214.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+SMLR|20140221.0,"BDO USA, LLP",0.0,,
+LMNS|20140227.0,"Deloitte Brightman Almagor Zohar and Co., a member firm of Deloitte Touche Tohmatsu",1.0,deloitte,
+VRNS|20140228.0,our,0.0,,180.0
+AQXP|20140306.0,Deloitte LLP,1.0,deloitte,180.0
+REPH|20140306.0,KPMG LLP,1.0,kpmg,
+AKAO|20140312.0,Davis Polk & Wardwell LLP. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+CSLT|20140313.0,Ernst & Young LLP,1.0,ey,180.0
+DPRX|20140313.0,,,,180.0
+GLMD|20140313.0,"Brightman Almagor Zohar & Co., a member firm of Deloitte Touche Tohmatsu Limited",1.0,deloitte,
+PCTY|20140319.0,KPMG LLP,1.0,kpmg,180.0
+AKBA|20140320.0,Ernst & Young LLP,1.0,ey,180.0
+MDWD|20140320.0,,,,180.0
+QTWO|20140320.0,Ernst & Young LLP,1.0,ey,180.0
+RTGN|20140320.0,Marcum LLP,0.0,,180.0
+ATEN|20140321.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+AMBR|20140321.0,KPMG LLP,1.0,kpmg,
+BRDR|20140321.0,PricewaterhouseCoopers LLP,1.0,pwc,
+VSAR|20140321.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+KING|20140326.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NORD|20140326.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OXBRU|20140326.0,"Hacker, Johnson & Smith, P.A.",0.0,,180.0
+AGTC|20140327.0,McGladrey LLP,0.0,,
+TNET|20140327.0,Ernst & Young LLP,1.0,ey,180.0
+TWOU|20140328.0,KPMG LLP,1.0,kpmg,
+HIVE|20140328.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BRG|20140328.0,"Plante Moran, PLLC",0.0,,180.0
+CBSO|20140328.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+WATT|20140328.0,Marcum LLP,0.0,,
+EVDY|20140328.0,Ernst & Young LLP,1.0,ey,180.0
+RUBI|20140402.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CORI|20140403.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TEDU|20140403.0,,,,180.0
+FIVN|20140404.0,Moss Adams LLP,0.0,,180.0
+GRUB|20140404.0,Crowe Horwath LLP,0.0,,180.0
+IMS|20140404.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OPWR|20140404.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+LQ|20140409.0,Deloitte & Touche LLP,1.0,deloitte,
+KANG|20140409.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+ADMS|20140410.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ALLY|20140410.0,,,,
+CERU|20140410.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ENBL|20140411.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FPI|20140411.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PAHC|20140411.0,,,,
+ZOES|20140411.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CIO|20140415.0,KPMG LLP,1.0,kpmg,180.0
+PAYC|20140415.0,Grant Thornton LLP,0.0,,180.0
+MC|20140416.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TRIV|20140416.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+LEJU|20140417.0,Deloitte Touche Tohmatsu Certificated Public Accountants LLP,1.0,deloitte,180.0
+SABR|20140417.0,Ernst & Young LLP,1.0,ey,180.0
+SPWH|20140417.0,KPMG LLP,1.0,kpmg,180.0
+VTL|20140417.0,Hein & Associates LLP,0.0,,180.0
+WB|20140417.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+QTNTU|20140425.0,Ernst & Young LLP,1.0,ey,180.0
+ALDX|20140502.0,"EXPERTS BDO, USA, LLP",0.0,,180.0
+ARES|20140502.0,,,,
+FRSH|20140502.0,Moss Adams LLP,0.0,,180.0
+SCYX|20140502.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+GLOP|20140507.0,"Deloitte Hadjipavlou, Sofianos & Cambanis S.A.",1.0,deloitte,180.0
+ALDR|20140508.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CMCM|20140508.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+KTWO|20140508.0,Ernst & Young LLP,1.0,ey,
+PBFX|20140509.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TOUR|20140509.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+BWFG|20140515.0,,,,
+ZEN|20140515.0,Regulation S-K. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+JMEI|20140516.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+True|20140516.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TGEN|20140521.0,McGladrey LLP,0.0,,180.0
+JD.|20140522.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+SEMI|20140522.0,KPMG LLP,1.0,kpmg,180.0
+AGRX|20140523.0,EisnerAmper LLP,0.0,,90.0
+HRTG|20140523.0,Grant Thornton LLP,0.0,,180.0
+PE|20140523.0,KPMG LLP,1.0,kpmg,180.0
+RESN|20140529.0,"Squar, Milner, Peterson, Miranda & Williamson, LLP",0.0,,
+ANET|20140606.0,Ernst & Young LLP,1.0,ey,180.0
+MOBL|20140612.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TSE|20140612.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ZPIN|20140612.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+ABY|20140613.0,"Deloitte, S.L.",1.0,deloitte,
+ASPN|20140613.0,KPMG LLP,1.0,kpmg,
+CCS|20140618.0,Ernst & Young LLP,1.0,ey,180.0
+SGNL|20140618.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+VNOM|20140618.0,,,,180.0
+ZSPH|20140618.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+ARDX|20140619.0,Experts Ernst & Young LLP,1.0,ey,
+MRKT|20140619.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ZFGN|20140619.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ECR|20140620.0,Grant Thornton LLP,0.0,,180.0
+KITE|20140620.0,Crowe Horwath LLP,0.0,,180.0
+XNET|20140624.0,,,,180.0
+ADPT|20140625.0,Ernst & Young LLP,1.0,ey,180.0
+AMPH|20140625.0,Ernst & Young LLP,1.0,ey,180.0
+IMPR|20140625.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MTLS|20140625.0,,,,180.0
+GPRO|20140626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SERV|20140626.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TCPI|20140626.0,KPMG LLP,1.0,kpmg,180.0
+NEP|20140627.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MIK|20140627.0,Ernst & Young LLP,1.0,ey,180.0
+ISTR|20140701.0,"Postlethwaite & Netterville, APAC",0.0,,
+NERV|20140701.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+GBIM|20140702.0,KPMG LLP,1.0,kpmg,
+CDNA|20140716.0,Ernst & Young LLP,1.0,ey,180.0
+IRMD|20140716.0,"Hargreaves & Savitch LLP, San Diego, California. EXPERTS McGladrey LLP",0.0,,
+ROKA|20140717.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GLOB|20140718.0,,,,180.0
+SAGE|20140718.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TERP|20140718.0,Ernst & Young LLP,1.0,ey,
+TRUP|20140718.0,Ernst & Young LLP,1.0,ey,180.0
+TUBE|20140718.0,KPMG LLP,1.0,kpmg,180.0
+MTBC|20140722.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+IMDZ|20140723.0,"Cooley LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+XENT|20140723.0,Ernst & Young LLP,1.0,ey,180.0
+TSQ|20140723.0,,,,
+WMS|20140724.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LOCO|20140724.0,"BDO USA, LLP",0.0,,180.0
+INNL|20140724.0,,,,
+OCUL|20140724.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OEC|20140724.0,"Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft (offices at Wittekindstraße. 1A, 45131 Essen, Germany)",1.0,ey,180.0
+PFNX|20140724.0,Haskell & White LLP,0.0,,180.0
+CFRXU|20140729.0,Ernst & Young LLP,1.0,ey,180.0
+SPKE|20140729.0,KPMG LLP,1.0,kpmg,180.0
+WLKP|20140730.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AAVL|20140731.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ORPN|20140731.0,Kost Forer Gabbay & Kasierer (a Member of EY Global),1.0,ey,180.0
+CTLT|20140731.0,Ernst & Young LLP,1.0,ey,180.0
+HQY|20140731.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MCUR|20140731.0,,,,180.0
+MRNS|20140731.0,KPMG LLP,1.0,kpmg,180.0
+SYF|20140731.0,,,,180.0
+RIGP|20140731.0,Ernst & Young LLP,1.0,ey,180.0
+FCB|20140801.0,"Grant Thornton, LLP",0.0,,
+LOXO|20140801.0,"Davis Polk & Wardwell LLP, Menlo Park, California. EXPERTS CohnReznick LLP",0.0,,
+MBLY|20140801.0,,,,
+VTTI|20140801.0,Ernst & Young Accountants LLP,1.0,ey,
+EARS|20140806.0,KPMG AG,1.0,kpmg,180.0
+HMLP|20140807.0,Ernst & Young AS,1.0,ey,
+TTOO|20140807.0,"Cooley LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+DSKY|20140807.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+GNBC|20140808.0,Deloitte & Touche LLP,1.0,deloitte,
+ICD|20140808.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OTIC|20140813.0,"EXPERTS Ernst & Young, LLP",1.0,ey,180.0
+AFMD|20140912.0,,,,180.0
+RWLK|20140912.0,"Kost, Forer, Gabbay and Kasierer, a member of Ernst & Young Global Limited",1.0,ey,180.0
+CIVI|20140917.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TKAI|20140917.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FOMX|20140918.0,"Kesselman, a member firm of PricewaterhouseCoopers International Limited",1.0,pwc,180.0
+PRQR|20140918.0,Deloitte Accountants B.V.,1.0,deloitte,180.0
+BABA|20140919.0,,,,
+GWGH|20140922.0,"Baker Tilly Virchow Krause, LLP",0.0,,180.0
+CFG|20140924.0,,,,
+CYBR|20140924.0,,,,180.0
+MDLY|20140924.0,McGladrey LLP,0.0,,180.0
+SFS|20140924.0,Ernst & Young LLP,1.0,ey,180.0
+VTAE|20140924.0,Ernst & Young LLP,1.0,ey,
+CNNX|20140925.0,Ernst & Young LLP,1.0,ey,
+TVPT|20140925.0,Deloitte LLP,1.0,deloitte,180.0
+VBLT|20141001.0,"Kesselman, a member firm of PricewaterhouseCoopers International Limited",1.0,pwc,180.0
+VSLR|20141001.0,Ernst & Young LLP,1.0,ey,
+AAC|20141002.0,"BDO USA, LLP",0.0,,180.0
+ATTO|20141002.0,"Ernst & Young, S.L.",1.0,ey,180.0
+CALA|20141002.0,EXPERTS Ernst & Young LLP,1.0,ey,
+JPEP|20141002.0,"Travis Wolff, LLP",0.0,,180.0
+VWR|20141002.0,KPMG LLP,1.0,kpmg,180.0
+W|20141002.0,Ernst & Young LLP,1.0,ey,180.0
+DERM|20141003.0,Ernst & Young LLP,1.0,ey,
+FMSA|20141003.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+YDLE|20141003.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+VBTX|20141008.0,JonesBaggett LLP,0.0,,
+GBSN|20141009.0,Mantyla McReynolds LLC,0.0,,180.0
+HUBS|20141009.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MOLG|20141009.0,,,,
+OMAM|20141009.0,"New York, New York. INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM KPMG LLP",1.0,kpmg,180.0
+USDP|20141009.0,UHY LLP,0.0,,
+PLAY|20141010.0,KPMG LLP,1.0,kpmg,180.0
+DPLO|20141010.0,"BDO USA, LLP",0.0,,180.0
+DM|20141015.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FWP|20141015.0,Ernst & Young Denmark P/S (formerly Ernst & Young P/S),1.0,ey,180.0
+GWB|20141015.0,Ernst & Young LLP,1.0,ey,180.0
+ATRA|20141016.0,Deloitte & Touche LLP,1.0,deloitte,
+ZAYO|20141017.0,KPMG LLP,1.0,kpmg,180.0
+ABCW|20141022.0,McGladrey LLP,0.0,,180.0
+PRTO|20141022.0,Ernst & Young LLP,1.0,ey,180.0
+SHLX|20141029.0,Ernst & Young LLP,1.0,ey,180.0
+SIEN|20141029.0,KPMG LLP,1.0,kpmg,180.0
+BOOT|20141030.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+AM|20141105.0,KPMG LLP,1.0,kpmg,180.0
+XENE|20141105.0,KPMG LLP,1.0,kpmg,180.0
+CHRS|20141106.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+NVRO|20141106.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+UPLD|20141106.0,"Holtzman Partners, LLP",0.0,,180.0
+FRPT|20141107.0,KPMG LLP,1.0,kpmg,180.0
+INCR|20141107.0,Ernst & Young LLP,1.0,ey,
+TBK|20141107.0,Crowe Horwath LLP,0.0,,
+JYNT|20141111.0,"EKS&H, LLLP",0.0,,
+AXTA|20141112.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CAPN|20141113.0,Marcum LLP,0.0,,180.0
+NAP|20141113.0,PricewaterhouseCoopers S.A.,1.0,pwc,180.0
+PRAH|20141113.0,Ernst & Young LLP,1.0,ey,180.0
+SKYS|20141113.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+FGEN|20141114.0,PricewaterhouseCoopers LLP,1.0,pwc,
+LMRK|20141114.0,Ernst & Young LLP,1.0,ey,180.0
+NDRM|20141114.0,"Kesselman, a member firm of PricewaterhouseCoopers International Limited",1.0,pwc,180.0
+VA|20141114.0,Ernst & Young LLP,1.0,ey,180.0
+STOR|20141118.0,Ernst & Young LLP,1.0,ey,
+EHIC|20141118.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+PGRE|20141119.0,,,,180.0
+EYES|20141119.0,Gumbiner Savett Inc.,0.0,,
+CNV|20141120.0,Ernst & Young Audit,1.0,ey,180.0
+NEOT|20141120.0,"California, in connection with the offering. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+HABT|20141120.0,Moss Adams LLP,0.0,,180.0
+NEFF|20141121.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SKIS|20141121.0,McGladrey LLP,0.0,,180.0
+HSGX|20141203.0,Grant Thornton LLP,0.0,,180.0
+LC|20141211.0,,,,
+MOMO|20141211.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+AVOL|20141212.0,,,,180.0
+CNXR|20141212.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+HDP|20141212.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+JRVR|20141212.0,,,,180.0
+MPG|20141212.0,Touche LLP,0.0,,180.0
+NEWR|20141212.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+WK|20141212.0,Ernst & Young LLP,1.0,ey,180.0
+ONDK|20141217.0,,,,180.0
+RMP|20141217.0,Ernst & Young LLP,1.0,ey,180.0
+BLCM|20141218.0,Ernst & Young LLP,1.0,ey,180.0
+JUNO|20141219.0,Ernst & Young LLP,1.0,ey,180.0
+MDVXU|20141219.0,Marcum LLP,0.0,,
+ICBK|20150116.0,"Vedder Price P.C., Chicago, Illinois. EXPERTS CliftonLarsonAllen LLP",0.0,,
+PN|20150116.0,"BDO USA, LLP",0.0,,180.0
+BOX|20150123.0,Ernst & Young LLP,1.0,ey,180.0
+ZSAN|20150127.0,Marcum LLP,0.0,,
+ASND|20150128.0,Deloitte Statsautoriseret Revisionspartnerselskab,1.0,deloitte,180.0
+ENTL|20150129.0,Grant Thornton LLP,0.0,,180.0
+FLKS|20150129.0,Ernst & Young LLP,1.0,ey,180.0
+LENS|20150129.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+AVGR|20150130.0,Day is acting as counsel for the underwriters. EXPERTS Ernst & Young LLP,1.0,ey,
+HIFR|20150130.0,Ernst & Young LLP,1.0,ey,
+SHAK|20150130.0,"Ernst and Young, LLP",0.0,,180.0
+ONCE|20150130.0,KPMG LLP,1.0,kpmg,180.0
+TCON|20150130.0,"Latham & Watkins LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,
+NVET|20150204.0,our,0.0,,180.0
+CPPL|20150205.0,Deloitte & Touche LLP,1.0,deloitte,
+DEA|20150205.0,,,,180.0
+AVNU|20150210.0,KPMG LLP,1.0,kpmg,
+INOV|20150212.0,Deloitte & Touche LLP,1.0,deloitte,
+NVTA|20150212.0,Experts Ernst & Young LLP,1.0,ey,180.0
+BLPH|20150213.0,KPMG LLP,1.0,kpmg,180.0
+AJX|20150213.0,Moss Adams LLP,0.0,,
+ITEK|20150218.0,McGladrey LLP,0.0,,180.0
+CHEKU|20150219.0,"Brightman Almagor Zohar & Co., a member firm of Deloitte Touche Tohmatsu, or Deloitte",1.0,deloitte,180.0
+MXPT|20150306.0,Deloitte & Touche LLP,1.0,deloitte,
+SUM|20150312.0,KPMG LLP,1.0,kpmg,180.0
+NCOM|20150319.0,"Porter Keadle Moore LLC, our",0.0,,180.0
+STDY|20150320.0,"Kost Forer Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,
+TANH|20150324.0,Experts Friedman LLP,0.0,,
+SEDG|20150326.0,"Kost Forer Gabbay & Kasierer, a member of Ernst & Young Global Limited",1.0,ey,
+JCAP|20150327.0,Grant Thornton LLP,0.0,,180.0
+GDDY|20150401.0,Ernst & Young LLP,1.0,ey,180.0
+KRNT|20150402.0,"Kost Forer Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+WOWO|20150408.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+CBYL|20150409.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ADRO|20150415.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CDTX|20150415.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+XBIT|20150415.0,Ernst & Young LLP,1.0,ey,180.0
+ETSY|20150416.0,PricewaterhouseCoopers LLP,1.0,pwc,
+KMPH|20150416.0,Ernst & Young LLP,1.0,ey,
+PRTY|20150416.0,Party City Holdco Inc. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+VIRT|20150416.0,Deloitte & Touche LLP,1.0,deloitte,
+NSA|20150423.0,EKS&H LLLP,0.0,,180.0
+APIC|20150424.0,Mayer Hoffman McCann P.C.,0.0,,180.0
+EVA|20150429.0,"Carr, Riggs & Ingram, LLC",0.0,,180.0
+VKTX|20150429.0,,,,180.0
+BPMC|20150430.0,Latham & Watkins LLP. EXPERTS Ernst & Young LLP,1.0,ey,
+BSM|20150501.0,UHY LLP,0.0,,180.0
+OPGN|20150505.0,CohnReznick LLP,0.0,,
+ADAP|20150506.0,KPMG LLP,1.0,kpmg,180.0
+CLCD|20150506.0,Grant Thornton LLP,0.0,,180.0
+HTGM|20150506.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+COLL|20150507.0,Grant Thornton LLP,0.0,,180.0
+TEGP|20150507.0,PricewaterhouseCoopers LLP,1.0,pwc,
+LIFE|20150507.0,"Polk & Wardwell LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+BOJA|20150508.0,KPMG LLP,1.0,kpmg,180.0
+EQGP|20150512.0,Ernst & Young LLP,1.0,ey,180.0
+JAGX|20150513.0,"BDO USA, LLP",0.0,,180.0
+FENX|20150514.0,"BDO USA, LLP",0.0,,180.0
+RKDA|20150515.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FTAI|20150515.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BKFS|20150520.0,KPMG LLP,1.0,kpmg,
+BZUN|20150521.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+CHCT|20150521.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+PGND|20150521.0,Ernst & Young LLP,1.0,ey,180.0
+SHOP|20150521.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PTXP|20150604.0,Ernst & Young LLP,1.0,ey,
+DTEA|20150605.0,"Ernst & Young LLP, Montréal, Canada (""Ernst & Young""), a member of Ernst & Young Global Limited",1.0,ey,180.0
+GI|20150605.0,KPMG LLP,1.0,kpmg,180.0
+EVH|20150605.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AXON|20150611.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PUB|20150611.0,Table of Contents EXPERTS Tanner LLC,0.0,,180.0
+WING|20150612.0,Ernst & Young LLP,1.0,ey,180.0
+IVTY|20150615.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NVLS|20150617.0,Ernst & Young LLP,1.0,ey,
+FIT|20150618.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+UNVR|20150618.0,Ernst & Young LLP,1.0,ey,180.0
+FOGO|20150619.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MB|20150619.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RTTR|20150624.0,,,,180.0
+CATB|20150625.0,"EXPERTS Ernst & Young, LLP",1.0,ey,180.0
+GKOS|20150625.0,Ernst & Young LLP,1.0,ey,180.0
+LNTH|20150625.0,Deloitte & Touche LLP,1.0,deloitte,
+MCRN|20150625.0,Ernst & Young LLP,1.0,ey,165.0
+TRU|20150625.0,Ernst & Young LLP,1.0,ey,180.0
+ALRM|20150626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+APPF|20150626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GPP|20150626.0,KPMG LLP,1.0,kpmg,180.0
+MCRB|20150626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+XTLY|20150626.0,KPMG LLP,1.0,kpmg,180.0
+YECO|20150626.0,Friedman LLP,0.0,,
+UFAB|20150630.0,"Baker Tilly Virchow Krause, LLP",0.0,,180.0
+CNXC|20150701.0,Ernst & Young LLP,1.0,ey,180.0
+CFMS|20150701.0,Grant Thornton LLP,0.0,,180.0
+TDOC|20150701.0,Ernst & Young LLP,1.0,ey,180.0
+NTRA|20150702.0,Ernst & Young LLP,1.0,ey,180.0
+CHMA|20150716.0,"Kost, Forer, Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+JP|20150716.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+OLLI|20150716.0,KPMG LLP,1.0,kpmg,180.0
+DNAI|20150716.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MCFT|20150717.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+OOMA|20150717.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RPD|20150717.0,KPMG LLP,1.0,kpmg,180.0
+BUFF|20150722.0,KPMG LLP,1.0,kpmg,180.0
+LOB|20150723.0,Dixon Hughes Goodman LLP,0.0,,
+NEOS|20150723.0,McGladrey LLP,0.0,,180.0
+NK|20150728.0,Mayer Hoffman McCann P.C.,0.0,,180.0
+VTVT|20150730.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+AQMS|20150731.0,Armanino LLP,0.0,,
+GLBL|20150731.0,,,,
+BETR|20150805.0,Deloitte & Touche LLP,1.0,deloitte,
+RUN|20150805.0,Ernst & Young LLP,1.0,ey,180.0
+ZYNE|20150805.0,KPMG LLP,1.0,kpmg,180.0
+AIMT|20150806.0,"KPMG, LLP",1.0,kpmg,180.0
+PLNT|20150806.0,KPMG LLP,1.0,kpmg,180.0
+GBT|20150812.0,KPMG LLP,1.0,kpmg,180.0
+CNFR|20150813.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+HLI|20150813.0,KPMG LLP,1.0,kpmg,180.0
+RGNX|20150917.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NBRV|20150918.0,,,,180.0
+PEN|20150918.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+EDGE|20151001.0,KPMG LLP,1.0,kpmg,180.0
+MIRN|20151001.0,"Ropes & Gray LLP, San Francisco, California. Experts Ernst & Young LLP",1.0,ey,180.0
+PFGC|20151001.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SGRY|20151001.0,Ernst & Young LLP,1.0,ey,180.0
+NVCR|20151002.0,"Kost Forer Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+ACRS|20151007.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PSTG|20151007.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ABTX|20151008.0,Crowe Horwath LLP,0.0,,
+CTMX|20151008.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PMTS|20151009.0,KPMG LLP,1.0,kpmg,180.0
+CERC|20151015.0,Ernst & Young LLP,1.0,ey,180.0
+FDC|20151015.0,Ernst & Young LLP,1.0,ey,180.0
+AFCO|20151020.0,Deloitte & Touche LLP,1.0,deloitte,
+RACE|20151021.0,Reconta Ernst & Young S.p.A.,1.0,ey,90.0
+DMTX|20151022.0,PricewaterhouseCoopers LLP,1.0,pwc,
+MPSX|20151022.0,Deloitte LLP,1.0,deloitte,180.0
+IOTS|20151027.0,"Burr Pilger Mayer, Inc.",0.0,,
+MYOK|20151029.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FORK|20151104.0,China. Experts Friedman LLP,0.0,,180.0
+AAAP|20151111.0,KPMG S.A.,1.0,kpmg,
+EQBK|20151111.0,Crowe Chizek LLP,0.0,,
+VYGR|20151111.0,Ernst & Young LLP,1.0,ey,180.0
+WVE|20151111.0,KPMG LLP,1.0,kpmg,180.0
+INST|20151113.0,Ernst & Young LLP,1.0,ey,180.0
+XCOM|20151113.0,Grant Thornton LLP,0.0,,180.0
+AXSM|20151119.0,Ernst & Young LLP,1.0,ey,180.0
+MTCH|20151119.0,,,,180.0
+MIME|20151119.0,Ernst & Young LLP,1.0,ey,180.0
+SQ|20151119.0,KPMG LLP,1.0,kpmg,
+DLTH|20151120.0,Grant Thornton LLP,0.0,,180.0
+TEAM|20151209.0,Ernst & Young LLP,1.0,ey,
+YRD|20151218.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+BGNE|20160203.0,Ernst & Young Hua Ming LLP,1.0,ey,
+EDIT|20160203.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+AVXS|20160211.0,PricewaterhouseCoopers LLP,1.0,pwc,
+PTI|20160211.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SNDX|20160303.0,Deloitte & Touche LLP,1.0,deloitte,
+CRVS|20160323.0,PricewaterhouseCoopers LLP,1.0,pwc,
+AGLE|20160406.0,PricewaterhouseCoopers LLP,1.0,pwc,
+BATS|20160415.0,,,,
+MGP|20160420.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SCWX|20160422.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RRR|20160427.0,Ernst and Young LLP,0.0,,180.0
+NTLA|20160506.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SBPH|20160506.0,RSM US LLP,0.0,,180.0
+TPB|20160511.0,RSM US LLP,0.0,,
+SITE|20160512.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ACIA|20160513.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ONSIU|20160513.0,KPMG LLP,1.0,kpmg,60.0
+PZRX|20160518.0,,,,
+PLSE|20160518.0,Gumbiner Savett Inc.,0.0,,
+SUPV|20160519.0,,,,
+MRUS|20160519.0,,,,180.0
+MSBI|20160524.0,,,,
+COTV|20160526.0,Grant Thornton LLP,0.0,,
+GMS|20160526.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RETA|20160526.0,EXPERTS Ernst & Young LLP,1.0,ey,
+USFD|20160526.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CLSD|20160602.0,Ernst & Young LLP,1.0,ey,180.0
+NH|20160602.0,Mayer Hoffman McCann P.C.,0.0,,
+SRTS|20160603.0,Marcum LLP,0.0,,
+ATKR|20160610.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+COE|20160610.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+SELB|20160622.0,Ernst & Young LLP,1.0,ey,180.0
+TWLO|20160623.0,KPMG LLP,1.0,kpmg,180.0
+SYRS|20160630.0,Cooley LLP. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+BOLD|20160720.0,KPMG LLP,1.0,kpmg,180.0
+PI|20160721.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PTHN|20160721.0,Ernst & Young LLP,1.0,ey,
+TPIC|20160722.0,KPMG LLP,1.0,kpmg,180.0
+KDMN|20160727.0,,,,
+KNSL|20160728.0,,,,180.0
+TCMD|20160728.0,Grant Thornton LLP,0.0,,180.0
+TLND|20160729.0,KPMG S.A.,1.0,kpmg,180.0
+HOME|20160804.0,Ernst & Young LLP,1.0,ey,180.0
+FHB|20160804.0,,,,
+ATMR|20160805.0,Marcum LLP,0.0,,
+GEMP|20160805.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+MEDP|20160811.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PTGX|20160811.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AIRG|20160812.0,KPMG LLP,1.0,kpmg,180.0
+NBLX|20160915.0,KPMG LLP,1.0,kpmg,180.0
+EVBG|20160916.0,KPMG LLP,1.0,kpmg,180.0
+FBK|20160916.0,,,,180.0
+NOVN|20160921.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TTD|20160921.0,Grant Thornton. The decision to change our principal,0.0,,180.0
+CSTR|20160922.0,KPMG LLP,1.0,kpmg,
+ELF|20160922.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ACIU|20160923.0,Ernst & Young AG,1.0,ey,180.0
+APTI|20160923.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GSUM|20160923.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+VVV|20160923.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FLGT|20160929.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MRT|20160929.0,KPMG LLP,1.0,kpmg,180.0
+TRHC|20160929.0,KPMG LLP,1.0,kpmg,
+NTNX|20160930.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ADSW|20161006.0,Ernst & Young LLP,1.0,ey,
+WAAS|20161006.0,KPMG LLP,1.0,kpmg,
+COUP|20161006.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+OBLN|20161006.0,KPMG LLP,1.0,kpmg,
+CWH|20161007.0,,,,180.0
+MRAM|20161007.0,Ernst & Young LLP,1.0,ey,180.0
+AZRX|20161011.0,"NY, is acting as counsel to the underwriters. EXPERTS WeiserMazars, LLP",0.0,,
+AZRE|20161012.0,Ernst & Young Associates LLP,1.0,ey,180.0
+XOG|20161012.0,Hein & Associates LLP,0.0,,180.0
+TUSK|20161014.0,Grant Thornton LLP,0.0,,180.0
+CRSP|20161019.0,Ernst & Young LLP,1.0,ey,180.0
+FRTA|20161020.0,Ernst & Young LLP,1.0,ey,180.0
+IRTC|20161020.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RARX|20161026.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MYOV|20161027.0,"Latham & Watkins LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+ZTO|20161027.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+GOLF|20161028.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BL|20161028.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+QTNA|20161028.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GDS|20161102.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+SND|20161104.0,Grant Thornton LLP,0.0,,180.0
+IIPR|20161201.0,"BDO USA, LLP",0.0,,180.0
+POLA|20161207.0,"Weinberg & Company, P.A.",0.0,,
+SNES|20161208.0,"M&K CPAS, PLLC",0.0,,
+ATH|20161209.0,,,,
+ICHR|20161209.0,KPMG LLP,1.0,kpmg,180.0
+TRVG|20161216.0,Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft,1.0,ey,180.0
+FRAC|20170120.0,,,,
+ANAB|20170126.0,KPMG LLP,1.0,kpmg,180.0
+OBSV|20170126.0,,,,180.0
+JELD|20170127.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JAG|20170127.0,KPMG LLP,1.0,kpmg,180.0
+JNCE|20170127.0,Ernst & Young LLP,1.0,ey,180.0
+REVG|20170127.0,RSM US LLP,0.0,,180.0
+INVH|20170201.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LAUR|20170201.0,,,,
+KRP|20170203.0,Grant Thornton LLP,0.0,,180.0
+METC|20170203.0,Briggs & Veselka Co.,0.0,,180.0
+CLPR|20170210.0,"BDO USA, LLP",0.0,,
+FBM|20170210.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SACH|20170210.0,"Hoberman & Lesser, LLP",0.0,,
+HLNE|20170301.0,Ernst & Young LLP,1.0,ey,180.0
+SNAP|20170302.0,EXPERTS Ernst & Young LLP,1.0,ey,150.0
+BYSI|20170309.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+JILL|20170309.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PSDO|20170310.0,RSM US LLP,0.0,,180.0
+ARD|20170315.0,PricewaterhouseCoopers LLP,1.0,pwc,
+GOOS|20170316.0,Deloitte LLP,1.0,deloitte,180.0
+MULE|20170317.0,KPMG LLP,1.0,kpmg,180.0
+PUMP|20170317.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+AYX|20170324.0,PricewaterhouseCoopers LLP,1.0,pwc,
+HESM|20170405.0,Ernst & Young LLP,1.0,ey,180.0
+ELVT|20170406.0,Grant Thornton LLP,0.0,,180.0
+SNDR|20170406.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+OKTA|20170407.0,"Professional Corporation, Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+AZUL|20170411.0,Ernst & Young Auditores Independentes S.S.,1.0,ey,180.0
+NETS|20170412.0,,,,
+CADE|20170413.0,,,,
+TOCA|20170413.0,"Latham & Watkins LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+HCC|20170413.0,Ernst & Young LLP,1.0,ey,180.0
+YEXT|20170413.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+WTTR|20170421.0,"Botts L.L.P., Houston, Texas. EXPERTS Pannell Kerr Forster of Texas, P.C.",0.0,,180.0
+FND|20170427.0,Ernst & Young LLP,1.0,ey,180.0
+CVNA|20170428.0,Grant Thornton LLP,0.0,,180.0
+XRF|20170428.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+CLDR|20170428.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+EEX|20170428.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NCSM|20170428.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ZYME|20170428.0,KPMG LLP,1.0,kpmg,
+AMGP|20170504.0,KPMG LLP,1.0,kpmg,180.0
+URGN|20170504.0,,,,180.0
+KREF|20170505.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+OVID|20170505.0,KPMG LLP,1.0,kpmg,
+NDRAU|20170509.0,RBSM LLP,0.0,,
+GNTY|20170509.0,Whitley Penn LLP,0.0,,
+ASV|20170512.0,"UHY LLP, our",0.0,,180.0
+GDI|20170512.0,,,,
+SOI|20170512.0,"BDO USA, LLP",0.0,,180.0
+VERI|20170512.0,Marcum LLP,0.0,,180.0
+SGH|20170524.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+APPN|20170525.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+WOW|20170525.0,"BDO USA, LLP",0.0,,180.0
+SSTI|20170607.0,"Baker Tilly Virchow Krause, LLP",0.0,,180.0
+PLYM|20170609.0,Marcum LLP,0.0,,180.0
+ATNX|20170614.0,Deloitte & Touche LLP,1.0,deloitte,
+ATUS|20170622.0,,,,
+SGBX|20170622.0,Registration Statement in reliance upon the report of Whitley Penn LLP,0.0,,180.0
+GPMT|20170623.0,"Ernst & Young, LLP",1.0,ey,180.0
+ATXI|20170627.0,"BDO USA, LLP",0.0,,180.0
+ESQ|20170627.0,Crowe Horwath LLP,0.0,,180.0
+MRSN|20170628.0,"Davis Polk & Wardwell LLP, New York, New York. Experts Ernst & Young LLP",1.0,ey,180.0
+ALRN|20170629.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+APRN|20170629.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+DOVA|20170629.0,KPMG LLP,1.0,kpmg,180.0
+BY|20170630.0,Moss Adams LLP,0.0,,180.0
+TNTR|20170630.0,KPMG LLP,1.0,kpmg,180.0
+CODX|20170712.0,,,,
+AKCA|20170714.0,"Polk & Wardwell LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+CLXT|20170720.0,Ernst & Young LLP,1.0,ey,180.0
+KALA|20170720.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TRTX|20170720.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PETQ|20170721.0,KPMG LLP,1.0,kpmg,180.0
+RBB|20170726.0,"Vavrinek, Trine, Day & Co., LLP",0.0,,180.0
+SNNA|20170727.0,Ernst & Young LLP,1.0,ey,180.0
+NEWA|20170728.0,MaloneBailey LLP,0.0,,
+RDFN|20170728.0,Deloitte & Touche LLP,1.0,deloitte,
+CMTA|20170802.0,KPMG LLP,1.0,kpmg,180.0
+VNTR|20170802.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RNGR|20170811.0,Hein & Associates LLP,0.0,,180.0
+YOGA|20170811.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+TRMT|20170914.0,Ernst & Young LLP,1.0,ey,180.0
+BSTI|20170920.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+CELC|20170920.0,"Boulay PLLP, our",0.0,,180.0
+DESP|20170920.0,,,,180.0
+KRYS|20170920.0,Mayer Hoffman McCann P.C.,0.0,,180.0
+ZLAB|20170920.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+OMP|20170921.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PETZ|20170921.0,MaloneBailey LLP,0.0,,
+SECO|20170922.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+RYB|20170927.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+DCPH|20170928.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NITE|20170928.0,Ernst & Young LLP,1.0,ey,180.0
+NCNA|20170928.0,Ernst & Young LLP,1.0,ey,180.0
+ROKU|20170928.0,Deloitte & Touche LLP,1.0,deloitte,
+PQG|20170929.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RYTM|20171005.0,Ernst & Young LLP,1.0,ey,180.0
+SWCH|20171006.0,PricewaterhouseCoopers LLP,1.0,pwc,
+CARG|20171012.0,Ernst & Young LLP,1.0,ey,
+KIDS|20171012.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+HAIR|20171012.0,Grant Thornton LLP,0.0,,
+OPTN|20171013.0,Ernst & Young LLP,1.0,ey,180.0
+QD|20171018.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+MDB|20171019.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+REDU|20171020.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+SE|20171020.0,Ernst & Young LLP,1.0,ey,180.0
+BPMP|20171026.0,Ernst & Young LLP,1.0,ey,
+EYE|20171026.0,,,,
+FSCT|20171027.0,our,0.0,,
+MBIN|20171027.0,"BKD, LLP",0.0,,180.0
+NEXA|20171027.0,,,,180.0
+ALTR|20171101.0,Experts Ernst & Young LLP,1.0,ey,180.0
+LOMA|20171101.0,Deloitte & Co. S.A.,1.0,deloitte,180.0
+ALNA|20171102.0,Ernst & Young LLP,1.0,ey,180.0
+AQUA|20171102.0,,,,
+FNKO|20171102.0,"Ernst & Young, LLP",1.0,ey,180.0
+SPRO|20171102.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ACMR|20171103.0,,,,
+AQ|20171103.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CBTX|20171108.0,Grant Thornton LLP,0.0,,
+FEDU|20171108.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+IFRX|20171108.0,,,,180.0
+MCB|20171108.0,Crowe Horwath LLP,0.0,,180.0
+APLS|20171109.0,Ernst & Young LLP,1.0,ey,180.0
+SOGO|20171109.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+BAND|20171110.0,Ernst & Young LLP,1.0,ey,180.0
+PPDF|20171110.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+SEND|20171115.0,KPMG LLP,1.0,kpmg,180.0
+ASNS|20171116.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JT|20171116.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+BXG|20171117.0,Grant Thornton LLP,0.0,,180.0
+SBT|20171117.0,Crowe Horwath LLP,0.0,,180.0
+SFIX|20171117.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SCPH|20171117.0,RSM US LLP,0.0,,180.0
+RETO|20171129.0,Friedman LLP,0.0,,
+BOXL|20171130.0,,,,
+ODT|20171207.0,Squar Milner LLP,0.0,,
+QTRX|20171207.0,Experts Ernst & Young LLP,1.0,ey,
+DNLI|20171208.0,EXPERTS Ernst & Young LLP,1.0,ey,
+LBC|20171208.0,,,,180.0
+CASA|20171215.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NMRK|20171215.0,Ernst & Young LLP,1.0,ey,180.0
+DOGZ|20171220.0,Experts Friedman LLP,0.0,,
+LX|20171221.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+ICLK|20171222.0,,,,180.0
+ILPT|20180112.0,Ernst & Young LLP,1.0,ey,180.0
+LBRT|20180112.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ADT|20180119.0,Ernst & Young LLP,1.0,ey,180.0
+COLD|20180119.0,,,,180.0
+NINE|20180119.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PAGS|20180124.0,,,,180.0
+EYEN|20180125.0,"Marcum, LLP",0.0,,180.0
+GTES|20180125.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MNLO|20180125.0,Mayer Hoffman McCann P.C.,0.0,,180.0
+ARMO|20180126.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+AGS|20180126.0,Ernst & Young LLP,1.0,ey,180.0
+SLDB|20180126.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TORC|20180126.0,KPMG LLP,1.0,kpmg,180.0
+CAAP|20180201.0,"Price Waterhouse & Co. S.R.L., a member firm of the PricewaterhouseCoopers global network",1.0,pwc,
+HUD|20180201.0,Ernst & Young AG,1.0,ey,180.0
+OSS|20180201.0,Haskell & White LLP,0.0,,180.0
+SLGL|20180201.0,,,,180.0
+VICI|20180201.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FTSI|20180202.0,Grant Thornton LLP,0.0,,180.0
+WHD|20180208.0,PricewaterhouseCoopers LLP,1.0,pwc,
+EOLS|20180208.0,Ernst & Young LLP,1.0,ey,180.0
+HMI|20180208.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+VCTR|20180208.0,Ernst & Young LLP,1.0,ey,180.0
+CDLX|20180209.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+QES|20180209.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MOTS|20180214.0,"Brightman Almagor Zohar & Co., a member firm of Deloitte Touche Tohmatsu Limited and",1.0,deloitte,
+FAMI|20180216.0,Schole LLP is acting as counsel to the underwriter. Experts Friedman LLP,0.0,,
+BTAI|20180308.0,"BDO USA, LLP",0.0,,180.0
+BWB|20180314.0,CliftonLarsonAllen LLP,0.0,,180.0
+RCUS|20180315.0,EXPERTS Ernst & Young LLP,1.0,ey,
+AIHS|20180316.0,ZH CPA LLP,0.0,,
+ZS|20180316.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+DNJR|20180320.0,Friedman LLP,0.0,,
+DBX|20180323.0,Ernst & Young LLP,1.0,ey,180.0
+STG|20180323.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+GHG|20180327.0,Ernst & Young Hua Ming LLP,1.0,ey,
+BILI|20180328.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+FIXX|20180328.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ONE|20180328.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+IQ|20180329.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+GNPX|20180329.0,Daszkal Bolton LLP,0.0,,180.0
+UMRX|20180329.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SPOT|20180403.0,Ernst & Young AB,1.0,ey,
+ZUO|20180412.0,KPMG LLP,1.0,kpmg,180.0
+AGMH|20180418.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+EAF|20180419.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SURF|20180419.0,PricewaterhouseCoopers LLP,1.0,pwc,
+LEVL|20180420.0,Crowe Horwath LLP,0.0,,180.0
+PVTL|20180420.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CDAY|20180426.0,KPMG LLP,1.0,kpmg,180.0
+LASR|20180426.0,KPMG LLP,1.0,kpmg,180.0
+DOCU|20180427.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GSHD|20180427.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SMAR|20180427.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JRSH|20180502.0,,,,
+PRT|20180502.0,KPMG LLP,1.0,kpmg,180.0
+INSP|20180503.0,Ernst & Young LLP,1.0,ey,180.0
+UBX|20180503.0,EXPERTS Ernst & Young LLP,1.0,ey,
+BCML|20180504.0,,,,
+CBLK|20180504.0,RSM US LLP,0.0,,180.0
+ROAD|20180504.0,RSM US LLP,0.0,,
+STXB|20180504.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,
+EVLO|20180509.0,Ernst & Young LLP,1.0,ey,180.0
+OBNK|20180509.0,,,,
+EQH|20180510.0,,,,180.0
+HUYA|20180511.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+PS|20180517.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+EVOP|20180523.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CLPS|20180524.0,Friedman LLP,0.0,,
+GSKY|20180524.0,PricewaterhouseCoopers LLP,1.0,pwc,
+KNSA|20180524.0,PricewaterhouseCoopers LLP,1.0,pwc,
+SRRK|20180524.0,Ernst & Young LLP,1.0,ey,180.0
+ITRM|20180525.0,our,0.0,,180.0
+HJLI|20180531.0,Marcum LLP,0.0,,180.0
+MGTX|20180608.0,Ernst & Young LLP,1.0,ey,180.0
+CHRA|20180614.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+USX|20180614.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AVLR|20180615.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+NEW|20180615.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+VRCA|20180615.0,KPMG LLP,1.0,kpmg,180.0
+EIDX|20180620.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AVRO|20180621.0,Ernst & Young LLP,1.0,ey,180.0
+APTX|20180621.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+AUTL|20180621.0,Ernst & Young LLP,1.0,ey,
+ECOR|20180621.0,KPMG LLP,1.0,kpmg,180.0
+EPRT|20180621.0,Ernst & Young LLP,1.0,ey,
+IIIV|20180621.0,,,,180.0
+KZR|20180621.0,KPMG LLP,1.0,kpmg,180.0
+MGTA|20180621.0,KPMG LLP,1.0,kpmg,180.0
+XERS|20180621.0,KPMG LLP,1.0,kpmg,180.0
+HYRE|20180627.0,,,,180.0
+NTGN|20180627.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+LOVE|20180627.0,our,0.0,,
+UXIN|20180627.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+BJ|20180628.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BV|20180628.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ENTX|20180628.0,PricewaterhouseCoopers International Limited,1.0,pwc,180.0
+EVER|20180628.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FTSV|20180628.0,"California, is representing the underwriters. EXPERTS Ernst & Young LLP",1.0,ey,
+STIM|20180628.0,KPMG LLP,1.0,kpmg,
+TBIO|20180628.0,Deloitte LLP,1.0,deloitte,180.0
+TCDA|20180628.0,EXPERTS Ernst & Young LLP,1.0,ey,
+DOMO|20180629.0,Ernst & Young LLP,1.0,ey,180.0
+CCB|20180718.0,Moss Adams LLP,0.0,,180.0
+CRNX|20180718.0,"BDO USA, LLP",0.0,,180.0
+RUBY|20180718.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ALLK|20180719.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+CNST|20180719.0,Ernst & Young LLP,1.0,ey,180.0
+ESTA|20180719.0,"Marcum, LLP",0.0,,180.0
+MYFW|20180719.0,,,,
+TLRY|20180719.0,Deloitte LLP,1.0,deloitte,
+REPL|20180720.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AQST|20180725.0,KPMG LLP,1.0,kpmg,180.0
+BE|20180725.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JG|20180726.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+CANG|20180726.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+FOCS|20180726.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LQDA|20180726.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PDD|20180726.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+TENB|20180726.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+ADIL|20180727.0,Statement have been so included in reliance on the report of Friedman LLP,0.0,,
+DAVA|20180727.0,,,,
+OPRA|20180727.0,,,,180.0
+WISA|20180727.0,BPM LLP,0.0,,180.0
+CWK|20180802.0,Ernst & Young LLP,1.0,ey,180.0
+SONO|20180802.0,PricewaterhouseCoopers LLP,1.0,pwc,
+ARLO|20180803.0,PricewaterhouseCoopers LLP,1.0,pwc,
+VCNX|20180809.0,Deloitte & Touche LLP,1.0,deloitte,
+MESA|20180810.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ARDS|20180814.0,,,,
+BNGOU|20180821.0,Deloitte & Touche LLP,1.0,deloitte,
+YI|20180912.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+NIO|20180912.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+PRNB|20180914.0,EXPERTS Ernst & Young LLP,1.0,ey,
+QTT|20180914.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+XYF|20180919.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+BSVN|20180920.0,,,,180.0
+ELAN|20180920.0,Ernst & Young LLP,1.0,ey,
+EB|20180920.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FTCH|20180921.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+YMAB|20180921.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+VIOT|20180925.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+ARCE|20180926.0,"Ernst & Young Auditores Independentes S.S. (""Ernst & Young"")",1.0,ey,180.0
+CBNK|20180926.0,,,,
+SVMK|20180926.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+STRO|20180926.0,"Cooley LLP, San Francisco, California. EXPERTS Ernst & Young LLP",1.0,ey,
+ARVN|20180927.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LAIX|20180927.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+RMED|20180927.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+UROV|20180927.0,Latham & Watkins LLP. Experts Ernst & Young LLP,1.0,ey,180.0
+CTK|20180928.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+GRTS|20180928.0,EXPERTS Ernst & Young LLP,1.0,ey,
+UPWK|20181003.0,PricewaterhouseCoopers LLP,1.0,pwc,
+GH|20181004.0,Experts Ernst & Young LLP,1.0,ey,180.0
+KOD|20181004.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ESTC|20181005.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ALLO|20181011.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+LTHM|20181011.0,KPMG LLP,1.0,kpmg,180.0
+PLAN|20181012.0,,,,180.0
+EQ|20181012.0,KPMG LLP,1.0,kpmg,180.0
+SIBN|20181017.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+OSMT|20181018.0,BDO USA LLP,0.0,,180.0
+PHAS|20181018.0,KPMG LLP,1.0,kpmg,
+MSC|20181018.0,Ernst & Young,1.0,ey,180.0
+LOGC|20181019.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+NIU|20181019.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+SWI|20181019.0,our,0.0,,180.0
+STNE|20181025.0,Ernst & Young Auditores Independentes S.S.,1.0,ey,180.0
+YETI|20181025.0,Grant Thornton LLP,0.0,,180.0
+GMDA|20181026.0,"Kost, Forer, Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+ORTX|20181031.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TWST|20181031.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CNF|20181107.0,KPMG Huazhen LLP (“KPMG”),1.0,kpmg,180.0
+TBLT|20181109.0,"Marcum, LLP",0.0,,180.0
+ETON|20181113.0,KMJ Corbin & Company LLP,0.0,,
+VAPO|20181114.0,Grant Thornton LLP,0.0,,180.0
+WEI|20181115.0,,,,180.0
+TC|20181120.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+MDRR|20181128.0,Cherry Bekaert LLP,0.0,,
+MOGU|20181206.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,
+MRNA|20181207.0,"Ropes & Gray LLP, Boston, Massachusetts. EXPERTS Ernst & Young LLP",1.0,ey,
+THOR|20181207.0,"Latham & Watkins LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+TME|20181212.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+QFIN|20181214.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+LEGH|20181214.0,Grant Thornton LLP,0.0,,180.0
+MTC|20190109.0,"MaloneBailey, LLP",0.0,,
+NFE|20190131.0,Ernst & Young LLP,1.0,ey,
+ALEC|20190207.0,EXPERTS Ernst & Young LLP,1.0,ey,
+GOSS|20190208.0,"Cooley LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+HARP|20190208.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+IMAC|20190213.0,Daszkal Bolton LLP,0.0,,180.0
+AVDR|20190214.0,Latham & Watkins LLP. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+TCRR|20190214.0,KPMG LLP,1.0,kpmg,180.0
+HOTH|20190215.0,"WithumSmith+Brown, PC",0.0,,180.0
+MITO|20190215.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SLGG|20190226.0,Squar Milner LLP,0.0,,180.0
+KLDO|20190228.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SWAV|20190307.0,Ernst & Young LLP,1.0,ey,180.0
+FHL|20190308.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+TIGR|20190320.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+LEVI|20190321.0,PricewaterhouseCoopers LLP,1.0,pwc,
+DTIL|20190328.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+WTRE|20190328.0,,,,
+LYFT|20190329.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+PBTS|20190402.0,Registration Statement in reliance upon the report of Friedman LLP,0.0,,
+RUHN|20190403.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+NGM|20190404.0,Ernst & Young LLP,1.0,ey,
+SILK|20190404.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TW|20190404.0,,,,
+GHSI|20190405.0,"Weinberg & Company, P.A., 1925 Century Park East, Suite 1120, Los Angeles, CA 90067",0.0,,
+PD|20190411.0,"Sutcliffe LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+TUFN|20190411.0,,,,180.0
+PLMR|20190417.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+TPTX|20190417.0,EXPERTS Ernst & Young LLP,1.0,ey,
+MNRL|20190418.0,KPMG LLP,1.0,kpmg,180.0
+GNLN|20190418.0,,,,
+HOOK|20190418.0,,,,180.0
+PINS|20190418.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+ZM|20190418.0,KPMG LLP,1.0,kpmg,180.0
+BYND|20190502.0,Deloitte & Touche LLP,1.0,deloitte,
+SY|20190502.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+TMDX|20190502.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RRBI|20190503.0,"Postlethwaite & Netterville, APAC",0.0,,
+SCPL|20190503.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+YJ|20190503.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+TRVI|20190507.0,Ernst & Young LLP,1.0,ey,180.0
+PSN|20190508.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AXLA|20190509.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CRTX|20190509.0,"BDO USA, LLP",0.0,,180.0
+MEC|20190509.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MIST|20190509.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NXTC|20190509.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+SPFI|20190509.0,,,,180.0
+JFIN|20190510.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+SONM|20190510.0,Moss Adams LLP,0.0,,180.0
+UBER|20190510.0,,,,270.0
+APLT|20190514.0,Ernst & Young LLP,1.0,ey,
+PSTL|20190515.0,"Statement has been so included in reliance on the report of BDO USA, LLP",0.0,,
+AVTR|20190517.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FSLY|20190517.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LK|20190517.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+BCYC|20190523.0,PricewaterhouseCoopers LLP,1.0,pwc,
+IDYA|20190523.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RTLR|20190523.0,,,,180.0
+GSX|20190606.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+RVLV|20190607.0,KPMG LLP,1.0,kpmg,180.0
+CRWD|20190612.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+MWK|20190612.0,Deloitte & Touche LLP,1.0,deloitte,
+FVRR|20190613.0,"Kost Forer Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+CHWY|20190614.0,Ernst & Young LLP,1.0,ey,180.0
+STOK|20190619.0,KPMG LLP,1.0,kpmg,180.0
+AKRO|20190620.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BCEL|20190620.0,OUM & Co. LLP,0.0,,
+GO|20190620.0,Deloitte & Touche LLP (“Deloitte”),1.0,deloitte,180.0
+PSNL|20190620.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PRVL|20190620.0,EXPERTS Ernst & Young LLP,1.0,ey,
+WORK|20190620.0,our,0.0,,
+CMBM|20190626.0,KPMG LLP,1.0,kpmg,180.0
+ADPT|20190627.0,EXPERTS Ernst & Young LLP,1.0,ey,
+BBIO|20190627.0,Deloitte & Touche LLP,1.0,deloitte,
+CHNG|20190627.0,Ernst & Young LLP,1.0,ey,180.0
+MORF|20190627.0,"Cooley LLP, Boston, Massachusetts. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+KRTX|20190628.0,KPMG LLP,1.0,kpmg,
+REAL|20190628.0,KPMG LLP,1.0,kpmg,180.0
+DOYU|20190717.0,Deloitte Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+FULC|20190718.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+MIRM|20190718.0,EXPERTS Ernst & Young LLP,1.0,ey,
+PHR|20190718.0,KPMG LLP,1.0,kpmg,180.0
+AFYA|20190719.0,,,,
+MDLA|20190719.0,"Cooley LLP, Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+CSTL|20190725.0,KPMG LLP,1.0,kpmg,180.0
+HCAT|20190725.0,,,,
+LVGO|20190725.0,"CJBS, LLC",0.0,,180.0
+PROS|20190725.0,,,,
+NOVA|20190725.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BHAT|20190726.0,Friedman LLP,0.0,,
+WSG|20190726.0,"Ernst & Young Hua Ming LLP, or EY-China",1.0,ey,180.0
+DT|20190801.0,Statement have been so included in reliance on the report of BDO USA LLP,0.0,,180.0
+KRUS|20190801.0,Deloitte & Touche LLP,1.0,deloitte,
+SNDL|20190801.0,,,,
+HKIB|20190805.0,Ernst & Young,1.0,ey,180.0
+INMD|20190808.0,,,,180.0
+JFG|20190815.0,,,,
+CFB|20190815.0,,,,
+TXG|20190912.0,LP. Cooley LLP is representing the underwriters. Experts Ernst & Young LLP,1.0,ey,180.0
+SDC|20190912.0,Ernst & Young LLP,1.0,ey,
+NET|20190913.0,KPMG LLP,1.0,kpmg,180.0
+STSA|20190913.0,KPMG LLP,1.0,kpmg,180.0
+SWTX|20190913.0,Ernst & Young LLP,1.0,ey,180.0
+NVST|20190918.0,,,,180.0
+IGMS|20190918.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DDOG|20190919.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+XGN|20190919.0,"BDO USA, LLP",0.0,,
+PING|20190919.0,,,,180.0
+OPRT|20190926.0,,,,
+PTON|20190926.0,,,,180.0
+APRE|20191003.0,Ernst & Young AB,1.0,ey,180.0
+FREQ|20191003.0,RSM US LLP,0.0,,180.0
+VIE|20191003.0,KPMG LLP,1.0,kpmg,
+BNTX|20191010.0,,,,180.0
+HBT|20191011.0,,,,
+VIR|20191011.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+BRBR|20191017.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BRP|20191024.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AIH|20191025.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+CABA|20191025.0,Ernst & Young LLP,1.0,ey,180.0
+HAPP|20191025.0,Briggs & Veselka Co.,0.0,,
+PHAT|20191025.0,"Cooley LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,
+PGNY|20191025.0,"Davis Polk & Wardwell LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+TFFP|20191025.0,"Marcum, LLP",0.0,,
+DAO|20191025.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+OYST|20191031.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RAPT|20191031.0,"Polk & Wardwell LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+DUO|20191101.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+CNTG|20191107.0,Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft,1.0,ey,180.0
+GRTX|20191107.0,KPMG LLP,1.0,kpmg,180.0
+SI|20191107.0,Crowe LLP,0.0,,180.0
+KRKR|20191108.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+CNSP|20191108.0,"MaloneBailey, LLP",0.0,,
+MOHO|20191108.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+TELA|20191108.0,KPMG LLP,1.0,kpmg,180.0
+ETNB|20191111.0,KPMG LLP,1.0,kpmg,180.0
+CAN|20191121.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+SITM|20191121.0,"BDO USA, LLP",0.0,,
+PINE|20191122.0,Grant Thornton LLP,0.0,,180.0
+LMPX|20191205.0,"Grassi & Co., CPAs, P.C.",0.0,,180.0
+XP|20191211.0,independent auditors. The financial institutions may only hire,0.0,,180.0
+BILL|20191212.0,Ernst & Young LLP,1.0,ey,
+EH|20191212.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+SPT|20191213.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+INDO|20191219.0,Marcum Bernstein & Pinchuk LLP,0.0,,180.0
+MNPR|20191219.0,Prospectus have been so included in reliance on the report of BPM LLP,0.0,,180.0
+MKD|20191230.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+IMAB|20200117.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+LIZI|20200117.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+DNK|20200117.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+VEL|20200117.0,KPMG LLP,1.0,kpmg,180.0
+ANVS|20200129.0,,,,
+BDTX|20200130.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ARQT|20200131.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+REYN|20200131.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BEAM|20200206.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CSPR|20200206.0,KPMG LLP,1.0,kpmg,180.0
+PPD|20200206.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SDGR|20200206.0,KPMG LLP,1.0,kpmg,180.0
+NREF|20200207.0,KPMG LLP,1.0,kpmg,180.0
+ONEW|20200207.0,,,,
+HUIZ|20200212.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+GRIL|20200213.0,,,,
+RVMD|20200213.0,Ernst & Young LLP,1.0,ey,180.0
+PASG|20200228.0,KPMG LLP,1.0,kpmg,180.0
+GFL|20200303.0,Deloitte LLP,1.0,deloitte,180.0
+IMRA|20200312.0,Ernst & Young LLP,1.0,ey,180.0
+WIMI|20200401.0,Friedman LLP,0.0,,180.0
+ZNTL|20200403.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+KROS|20200408.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ORIC|20200424.0,KPMG LLP,1.0,kpmg,180.0
+LYRA|20200501.0,"Prospectus have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+AYLA|20200508.0,Marcum LLP,0.0,,
+KC|20200508.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+ADCT|20200515.0,,,,180.0
+SLQT|20200521.0,Deloitte & Touche LLP,1.0,deloitte,
+NARI|20200522.0,"BDO USA, LLP",0.0,,180.0
+PLRX|20200603.0,Deloitte & Touche LLP,1.0,deloitte,
+WMG|20200603.0,KPMG LLP,1.0,kpmg,180.0
+ZI|20200604.0,,,,
+AMTI|20200605.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DADA|20200605.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+LEGN|20200605.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+FOUR|20200605.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+VRM|20200609.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+UCL|20200610.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+LTRN|20200611.0,EisnerAmper LLP,0.0,,
+AZEK|20200612.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RNA|20200612.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,
+BNR|20200612.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+GBIO|20200612.0,Ernst & Young LLP,1.0,ey,180.0
+PCVX|20200612.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RPRX|20200616.0,Ernst & Young,1.0,ey,180.0
+FMTX|20200619.0,Ernst & Young LLP,1.0,ey,180.0
+PROG|20200619.0,KPMG LLP,1.0,kpmg,180.0
+RPTX|20200619.0,Ernst & Young LLP,1.0,ey,
+API|20200626.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+AKUS|20200626.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ACI|20200626.0,Deloitte & Touche LLP,1.0,deloitte,
+EBON|20200626.0,"MaloneBailey, LLP",0.0,,180.0
+FUSN|20200626.0,,,,180.0
+PYPD|20200626.0,"Kost, Forer, Gabbay & Kasierer, Certified Public Accountants (Israel)",0.0,,180.0
+ADTX|20200630.0,,,,
+DNB|20200701.0,,,,
+ACCD|20200702.0,KPMG LLP,1.0,kpmg,180.0
+LMND|20200702.0,Ernst & Young LLP,1.0,ey,
+NKTX|20200710.0,EXPERTS Ernst & Young LLP,1.0,ey,
+PSTX|20200710.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+QH|20200710.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+NCNO|20200714.0,Ernst & Young LLP,1.0,ey,180.0
+GOCO|20200715.0,Ernst & Young LLP,1.0,ey,180.0
+RLAY|20200716.0,"Ropes & Gray LLP, Boston, Massachusetts. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+TIG|20200716.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ALXO|20200717.0,KPMG LLP,1.0,kpmg,180.0
+BLI|20200717.0,KPMG LLP,1.0,kpmg,180.0
+PAND|20200717.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+JAMF|20200722.0,,,,180.0
+EDTK|20200723.0,BDO China Shu Lun Pan Certified Public Accountants LLP,0.0,,
+ANNX|20200724.0,KPMG LLP,1.0,kpmg,180.0
+INZY|20200724.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+NRIX|20200724.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ITOS|20200724.0,Deloitte Bedrijfsrevisoren / Réviseurs d’Entreprises CVBA/SCRL,1.0,deloitte,180.0
+VERX|20200729.0,Crowe LLP,0.0,,180.0
+ALVR|20200730.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LI|20200730.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+GOED|20200731.0,,,,
+FTHM|20200731.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,
+VSTA|20200731.0,,,,180.0
+VITL|20200731.0,KPMG LLP,1.0,kpmg,
+BIGC|20200805.0,Ernst & Young LLP,1.0,ey,180.0
+RXT|20200805.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AFIB|20200806.0,KPMG LLP,1.0,kpmg,180.0
+OSH|20200806.0,Ernst & Young LLP,1.0,ey,180.0
+RKT|20200806.0,,,,180.0
+CMPI|20200807.0,KPMG LLP,1.0,kpmg,
+FRLN|20200807.0,Deloitte LLP,1.0,deloitte,180.0
+IBEX|20200807.0,our,0.0,,180.0
+KBNT|20200812.0,Marcum LLP,0.0,,180.0
+BEKE|20200813.0,,,,180.0
+NTST|20200813.0,KPMG LLP,1.0,kpmg,180.0
+CVAC|20200814.0,,,,180.0
+DCT|20200814.0,KPMG LLP,1.0,kpmg,180.0
+HRMY|20200819.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+INBX|20200819.0,"BDO USA, LLP",0.0,,180.0
+KYMR|20200821.0,"Pickering Hale and Dorr LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+NNOX|20200821.0,,,,180.0
+XPEV|20200827.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+HCDI|20200828.0,"Rosenberg Rich Baker Berman, P.A.",0.0,,180.0
+AUVI|20200831.0,EXPERTS Adeptus Partners LLC,0.0,,
+PRFX|20200901.0,"Brightman Almagor Zohar & Co., a Firm in the Deloitte Global Network",1.0,deloitte,
+OM|20200915.0,KPMG LLP,1.0,kpmg,180.0
+FROG|20200916.0,,,,180.0
+MTCR|20200916.0,"Latham & Watkins LLP, San Diego, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+SNOW|20200916.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+STEP|20200916.0,Ernst & Young LLP,1.0,ey,180.0
+AMWL|20200917.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BNL|20200917.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DYN|20200917.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PTVE|20200917.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SUMO|20200917.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ATHA|20200918.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CMPS|20200918.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+U|20200918.0,"Sullivan & Cromwell LLP, Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+VTRU|20200918.0,,,,
+BSY|20200923.0,our,0.0,,
+CRSR|20200923.0,KPMG LLP,1.0,kpmg,180.0
+GDRX|20200923.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+LSF|20200923.0,Moss Adams LLP,0.0,,180.0
+TSHA|20200924.0,Deloitte & Touche LLP,1.0,deloitte,
+AMST|20200925.0,Deloitte & Touche LLP,1.0,deloitte,90.0
+GRAY|20200925.0,"Pickering Hale and Dorr LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+GLSI|20200925.0,"MaloneBailey, LLP",0.0,,180.0
+PMVP|20200925.0,EXPERTS Ernst & Young LLP,1.0,ey,
+PRLD|20200925.0,Ernst & Young LLP,1.0,ey,180.0
+VIAO|20200925.0,Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft,1.0,ey,180.0
+ASAN|20200930.0,PricewaterhouseCoopers LLP,1.0,pwc,
+BQ|20200930.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+CD|20200930.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+PLTR|20200930.0,EXPERTS Ernst & Young LLP,1.0,ey,
+YALA|20200930.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+LXEH|20201001.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+AVO|20201001.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LUNG|20201001.0,"BDO USA, LLP",0.0,,180.0
+THRY|20201001.0,Ernst & Young LLP,1.0,ey,
+ASO|20201002.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CCCC|20201002.0,KPMG LLP,1.0,kpmg,180.0
+IMNM|20201002.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ONCR|20201002.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+SQFT|20201007.0,Squar Milner LLP,0.0,,180.0
+AZYO|20201008.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FUBO|20201008.0,,,,
+KRON|20201009.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+STTK|20201009.0,KPMG LLP,1.0,kpmg,
+SPRB|20201009.0,"BDO USA, LLP",0.0,,
+IH|20201009.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+CDAK|20201014.0,"Ropes & Gray LLP, Boston, Massachusetts. EXPERTS Ernst & Young LLP",1.0,ey,
+ARRY|20201015.0,"BDO USA, LLP",0.0,,180.0
+MNSO|20201015.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+ALGS|20201016.0,Ernst & Young LLP,1.0,ey,
+EAR|20201016.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+KRBP|20201016.0,Deloitte & Touche LLP,1.0,deloitte,
+PRAX|20201016.0,Ernst & Young LLP,1.0,ey,
+TARS|20201016.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+MSP|20201021.0,,,,180.0
+YGMZ|20201021.0,Friedman LLP,0.0,,
+GHLD|20201022.0,KPMG LLP,1.0,kpmg,
+MCFE|20201022.0,,,,180.0
+FHTX|20201023.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BDSX|20201028.0,KPMG LLP,1.0,kpmg,180.0
+GATO|20201028.0,KPMG LLP,1.0,kpmg,180.0
+MAX|20201028.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ROOT|20201028.0,Deloitte & Touche LLP,1.0,deloitte,
+ALGM|20201029.0,Grant Thornton LLP,0.0,,180.0
+GLTO|20201029.0,EY Godkendt Revisionspartnerselskab,1.0,ey,180.0
+AVIR|20201030.0,KPMG LLP,1.0,kpmg,180.0
+JUPW|20201030.0,"M&K CPAS, PLLC",0.0,,
+LU|20201030.0,,,,180.0
+SQZ|20201030.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NGMS|20201119.0,,,,180.0
+OLMA|20201119.0,"Polk & Wardwell LLP, Menlo Park, California. Experts Ernst & Young LLP",1.0,ey,180.0
+TLS|20201119.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,
+YSG|20201119.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+MRVI|20201120.0,Ernst & Young LLP,1.0,ey,180.0
+SHC|20201120.0,Ernst & Young LLP,1.0,ey,180.0
+HFEN|20201124.0,"Rosenberg Rich Baker Berman, P.A.",0.0,,
+OZON|20201124.0,,,,180.0
+VMAR|20201124.0,BDO Canada LLP,0.0,,
+KNTE|20201203.0,KPMG LLP,1.0,kpmg,
+YQ|20201204.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+SEER|20201204.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SGTX|20201204.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SBTX|20201204.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+AI|20201209.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DASH|20201209.0,KPMG LLP,1.0,kpmg,180.0
+PUBM|20201209.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ABNB|20201210.0,,,,
+HYFM|20201210.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FDMT|20201211.0,PricewaterhouseCoopers LLP,1.0,pwc,
+ABCL|20201211.0,KPMG LLP,1.0,kpmg,180.0
+CERT|20201211.0,CohnReznick LLP,0.0,,180.0
+VVOS|20201211.0,"Plante & Moran, PLLC",0.0,,180.0
+OCG|20201215.0,"Wei, Wei & Co., LLP",0.0,,
+WNW|20201215.0,Friedman LLP,0.0,,
+BCAB|20201216.0,"Cravath, Swaine & Moore LLP, New York, New York. Experts Ernst & Young LLP",1.0,ey,180.0
+WISH|20201216.0,"Cooley LLP, San Francisco, California. EXPERTS Ernst & Young LLP",1.0,ey,
+UPST|20201216.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+VIRI|20201217.0,Dixon Hughes Goodman LLP,0.0,,
+MASS|20201218.0,PricewaterhouseCoopers LLP,1.0,pwc,
+GBS|20201223.0,BDO Audit Pty Ltd,0.0,,
+IKT|20201223.0,York is acting as counsel for the underwriters. EXPERTS CohnReznick LLP,0.0,,
+MRM|20201229.0,,,,180.0
+CGEM|20210108.0,KPMG LLP,1.0,kpmg,
+GRCL|20210108.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+KUKE|20210112.0,Ernst & Young,1.0,ey,180.0
+QLI|20210112.0,Friedman LLP,0.0,,
+AFRM|20210113.0,,,,
+MSGM|20210113.0,"Reath LLP, Minneapolis, Minnesota. Experts Dixon Hughes Goodman LLP",0.0,,180.0
+WOOF|20210114.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,
+POSH|20210114.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+DRVN|20210115.0,KPMG LLP,1.0,kpmg,180.0
+PLTK|20210115.0,"Kost Forer Gabbay & Kasierer-Ernst & Young Israel, a member of Ernst & Young Global",1.0,ey,180.0
+DFH|20210121.0,,,,
+MYTE|20210121.0,,,,180.0
+HUDI|20210122.0,,,,
+MNTK|20210122.0,Grant Thornton LLP,0.0,,
+PAX|20210122.0,Deloitte Touche Tohmatsu Auditores Independentes,1.0,deloitte,180.0
+RLX|20210122.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+EZGO|20210126.0,,,,
+SHLS|20210127.0,"BDO USA, LLP",0.0,,180.0
+TIRX|20210127.0,RBSM LLP,0.0,,180.0
+AGFY|20210128.0,"New York, NY, is acting as counsel to the underwriters. EXPERTS Marcum LLP",0.0,,180.0
+OCDX|20210128.0,,,,180.0
+XM|20210128.0,KPMG LLP,1.0,kpmg,180.0
+VINP|20210128.0,,,,180.0
+ZIM|20210128.0,Dixon Hughes Goodman LLP,0.0,,180.0
+HMPT|20210129.0,,,,
+NLSP|20210129.0,Marcum LLP,0.0,,
+ONTF|20210203.0,,,,
+TIXT|20210203.0,,,,
+ATC|20210204.0,,,,180.0
+LABP|20210204.0,Ernst & Young LLP,1.0,ey,180.0
+SANA|20210204.0,"California, is representing the underwriters. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+SNSE|20210204.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ANGN|20210205.0,Moss Adams LLP,0.0,,
+BOLT|20210205.0,PricewaterhouseCoopers LLP,1.0,pwc,
+CNEY|20210205.0,Friedman LLP,0.0,,180.0
+EVAX|20210205.0,EY Godkendt Revisionspartnerselskab,1.0,ey,
+IMCR|20210205.0,KPMG LLP,1.0,kpmg,180.0
+LHDX|20210205.0,"BDO USA, LLP",0.0,,180.0
+PHVS|20210205.0,,,,180.0
+TERN|20210205.0,"Davis Polk & Wardwell LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+VOR|20210205.0,Ernst & Young LLP,1.0,ey,
+BAOS|20210208.0,Friedman LLP,0.0,,180.0
+ADAG|20210209.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+RAAS|20210209.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+SDH|20210209.0,,,,
+DSP|20210210.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+APR|20210211.0,Deloitte & Touche LLP,1.0,deloitte,
+BVS|20210211.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+BMBL|20210211.0,"Ernst & Young LLP (EY-US), the United States member firm of Ernst & Young Global Limited (EYG)",1.0,ey,180.0
+SGFY|20210211.0,Deloitte & Touche LLP,1.0,deloitte,
+LDI|20210211.0,Ernst & Young LLP,1.0,ey,180.0
+DBTX|20210212.0,Ernst & Young LLP,1.0,ey,180.0
+LGVN|20210212.0,,,,
+NEXI|20210212.0,Ernst & Young LLP,1.0,ey,180.0
+TLIS|20210212.0,"Latham & Watkins LLP, Menlo Park, California. Experts Ernst & Young LLP",1.0,ey,180.0
+AUUD|20210217.0,"Plante & Moran PLLC (“Plante”), 8181 East Tufts Avenue, Denver, CO 80237",0.0,,180.0
+VRPX|20210217.0,EisnerAmper LLP,0.0,,
+OSCR|20210303.0,Grant Thornton LLP,0.0,,
+INNV|20210304.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+GROY|20210309.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+RBLX|20210310.0,Deloitte & Touche LLP,1.0,deloitte,
+CPNG|20210311.0,,,,
+HAYW|20210312.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JOAN|20210312.0,"Ernst and Young, LLP",0.0,,180.0
+LBPH|20210312.0,KPMG LLP,1.0,kpmg,
+RXDX|20210312.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+JWEL|20210317.0,Friedman LLP,0.0,,
+OLO|20210317.0,Ernst & Young LLP,1.0,ey,
+SNCY|20210317.0,KPMG LLP,1.0,kpmg,180.0
+NAPA|20210318.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+GANX|20210318.0,Ernst & Young AG,1.0,ey,180.0
+TUYA|20210318.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,
+VEI|20210318.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+AFCG|20210319.0,CohnReznick LLP,0.0,,180.0
+CNTB|20210319.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+FNCH|20210319.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+TIL|20210319.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MOVE|20210323.0,"Moss Adams, LLP",0.0,,
+UPC|20210323.0,Friedman LLP,0.0,,
+ACVA|20210324.0,Ernst & Young LLP,1.0,ey,180.0
+DOCN|20210324.0,Ernst & Young LLP,1.0,ey,
+CRCT|20210325.0,,,,
+DSEY|20210325.0,,,,
+EEIQ|20210325.0,,,,
+LVTX|20210325.0,,,,180.0
+OLK|20210325.0,,,,180.0
+SEMR|20210325.0,Ernst & Young LLP,1.0,ey,
+VZIO|20210325.0,KPMG LLP,1.0,kpmg,180.0
+ALHC|20210326.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DSGN|20210326.0,Latham & Watkins LLP. EXPERTS Ernst & Young LLP,1.0,ey,
+EWTX|20210326.0,KPMG LLP,1.0,kpmg,180.0
+HYW|20210326.0,Marcum Bernstein & Pinchuk LLP,0.0,,180.0
+IKNA|20210326.0,"Pickering Hale and Dorr LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+TDUP|20210326.0,KPMG LLP,1.0,kpmg,180.0
+ZH|20210326.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+ACHL|20210331.0,KPMG LLP,1.0,kpmg,180.0
+COUR|20210331.0,Deloitte & Touche LLP,1.0,deloitte,
+COMP|20210401.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ULCC|20210401.0,Ernst & Young LLP,1.0,ey,180.0
+KARO|20210401.0,Deloitte & Touche,1.0,deloitte,180.0
+EM|20210401.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+UTME|20210406.0,,,,
+RPHM|20210409.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+VECT|20210409.0,Ernst & Young AG,1.0,ey,180.0
+ALKT|20210414.0,Ernst & Young LLP,1.0,ey,
+COIN|20210414.0,Deloitte & Touche LLP,1.0,deloitte,
+APP|20210415.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+KRT|20210415.0,"BDO USA, LLP",0.0,,180.0
+TSP|20210415.0,KPMG LLP,1.0,kpmg,121.0
+AGL|20210415.0,"Cravath, Swaine & Moore LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+EBET|20210415.0,"PWR CPA, LLP",0.0,,
+AKYA|20210416.0,RSM US LLP,0.0,,180.0
+BMEA|20210416.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RXRX|20210416.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+IFBD|20210420.0,Friedman LLP,0.0,,
+TRKA|20210420.0,RBSM LLP,0.0,,270.0
+DV|20210421.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+SKYT|20210421.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PATH|20210421.0,Grant Thornton LLP,0.0,,
+KNBE|20210422.0,KPMG LLP,1.0,kpmg,180.0
+NPCE|20210422.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ZY|20210422.0,"Goodrich & Rosati, P.C., Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+AGTI|20210423.0,KPMG LLP,1.0,kpmg,180.0
+IMPL|20210423.0,EXPERTS Ernst & Young LLP,1.0,ey,
+SWIM|20210423.0,RSM US LLP,0.0,,180.0
+RAIN|20210423.0,"Latham & Watkins LLP, Menlo Park, California. EXPERTS Ernst & Young LLP",1.0,ey,
+TMCI|20210423.0,Grant Thornton LLP,0.0,,180.0
+FTCI|20210428.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AVAH|20210429.0,Ernst & Young LLP,1.0,ey,180.0
+EDR|20210429.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PRVA|20210429.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+VACC|20210430.0,Statement has been so included in reliance on the report of BDO LLP,0.0,,180.0
+HOWL|20210430.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ALF|20210504.0,"Jolie Kahn, Esq., New York, New York. EXPERTS Slack & Company CPAs, LLC",0.0,,365.0
+FSBC|20210505.0,Moss Adams LLP,0.0,,180.0
+HNST|20210505.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ANEB|20210507.0,EisnerAmper LLP,0.0,,180.0
+BWMN|20210507.0,Ernst & Young LLP,1.0,ey,180.0
+OG|20210507.0,Ernst & Young Hua Ming LLP,1.0,ey,
+TALS|20210507.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+WDH|20210507.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+FLGC|20210511.0,Davidson & Company LLP (“Davidson”),0.0,,
+GLBE|20210512.0,"Kost, Forer, Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,180.0
+SMWB|20210512.0,,,,180.0
+IPW|20210512.0,UHY LLP,0.0,,180.0
+DBGI|20210514.0,Moss Adams LLP,0.0,,
+EJH|20210514.0,"TPS Thayer, LLC",0.0,,
+VERA|20210514.0,KPMG LLP,1.0,kpmg,180.0
+JZXN|20210518.0,"Statement have been so included in reliance on the report of WWC, P.C.",0.0,,
+SQSP|20210519.0,Ernst & Young LLP,1.0,ey,
+OTLY|20210520.0,Ernst & Young AB,1.0,ey,180.0
+PCOR|20210520.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FLYW|20210526.0,Kost Forer Gabbay & Kasierer A Member of Ernst & Young Global,1.0,ey,180.0
+PAY|20210526.0,,,,180.0
+ZIP|20210526.0,PricewaterhouseCoopers LLP,1.0,pwc,
+DAWN|20210527.0,Ernst & Young LLP,1.0,ey,180.0
+FIGS|20210527.0,,,,180.0
+OMIC|20210527.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+CNTA|20210528.0,KPMG LLP,1.0,kpmg,180.0
+DLO|20210603.0,,,,180.0
+ZME|20210608.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+MQ|20210609.0,"Goodrich & Rosati, P.C., Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+DIBS|20210610.0,Ernst & Young LLP,1.0,ey,
+LFST|20210610.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ZETA|20210610.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MNDY|20210610.0,"Brightman Almagor Zohar & Co., a firm in the Deloitte Global Network",1.0,deloitte,
+JANX|20210611.0,Latham & Watkins LLP. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+BZ|20210611.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+TASK|20210611.0,KPMG LLP,1.0,kpmg,180.0
+ALZN|20210615.0,"Squar Milner LLP (which effective as of November 1, 2020, merged with Baker Tilly US, LLP)",0.0,,180.0
+CNVY|20210616.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+WKME|20210616.0,Kost Forer Gabbay & Kasierer (a member of Ernst & Young Global),1.0,ey,
+AOMR|20210617.0,KPMG LLP,1.0,kpmg,180.0
+LYEL|20210617.0,Latham & Watkins LLP. EXPERTS Ernst & Young LLP,1.0,ey,
+VERV|20210617.0,Ernst & Young LLP,1.0,ey,180.0
+ISPC|20210617.0,"Wolf & Company, P.C.",0.0,,
+ATAI|20210618.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RERE|20210618.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+AMAM|20210618.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+IPSC|20210618.0,Ernst & Young LLP,1.0,ey,180.0
+DNAY|20210618.0,,,,180.0
+CYT|20210618.0,Ernst & Young,1.0,ey,180.0
+FEMY|20210618.0,KPMG LLP,1.0,kpmg,180.0
+YMM|20210622.0,Deloitte Touche Tohmatsu Certified Public Accountants LLP,1.0,deloitte,180.0
+FA|20210623.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CXM|20210623.0,KPMG LLP,1.0,kpmg,
+BON|20210624.0,Friedman LLP,0.0,,180.0
+BHG|20210624.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CFLT|20210624.0,PricewaterhouseCoopers LLP,1.0,pwc,
+DOCS|20210624.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+GRVI|20210624.0,RBSM LLP,0.0,,
+MIRO|20210624.0,"Baker Tilly US, LLP",0.0,,180.0
+GLUE|20210624.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ACXP|20210625.0,"York, has acted as counsel for the underwriters. EXPERTS CohnReznick LLP",0.0,,
+TKNO|20210625.0,Ernst & Young LLP,1.0,ey,180.0
+ELEV|20210625.0,Experts CohnReznick LLP,0.0,,180.0
+GHRS|20210625.0,,,,180.0
+GRPH|20210625.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+MF|20210625.0,PricewaterhouseCoopers Zhong Tian LLP,1.0,pwc,180.0
+MCW|20210625.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+DDL|20210629.0,Ernst & Young Hua Ming LLP,1.0,ey,180.0
+AVTE|20210630.0,KPMG LLP,1.0,kpmg,180.0
+CVRX|20210630.0,Grant Thornton LLP,0.0,,180.0
+YOU|20210630.0,Ernst & Young LLP,1.0,ey,
+DIDI|20210630.0,,,,180.0
+INTA|20210630.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+IAS|20210630.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+LZ|20210630.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CPOP|20210630.0,Friedman LLP,0.0,,180.0
+S|20210630.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+XMTR|20210630.0,KPMG LLP,1.0,kpmg,
+ABOS|20210701.0,Ernst & Young LLP,1.0,ey,180.0
+HBX|20210701.0,GUNEY BAGIMSIZ DENETIM VE SERBEST MUHASEBECI MALI MUSAVIRLIK A.S.,0.0,,180.0
+EVCM|20210701.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+VRAR|20210701.0,"Hoberman & Lesser CPA’s, LLP",0.0,,
+DNUT|20210701.0,Grant Thornton LLP,0.0,,180.0
+CURV|20210701.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+AGRI|20210708.0,"Kelley Drye & Warren LLP, New York, New York. EXPERTS Marcum LLP",0.0,,
+MITQ|20210708.0,CohnReznick LLP,0.0,,365.0
+SNTG|20210709.0,Friedman LLP,0.0,,
+RNAZ|20210709.0,,,,
+UNCY|20210713.0,Mayer Hoffman McCann P.C.,0.0,,
+FXLV|20210715.0,Deloitte & Touche LLP,1.0,deloitte,
+MCG|20210715.0,Statement have been so included in reliance on the report of BDO LLP,0.0,,180.0
+PECO|20210715.0,,,,
+RPID|20210715.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SERA|20210715.0,Ernst & Young LLP,1.0,ey,
+SGHT|20210715.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BLND|20210716.0,"Goodwin Procter LLP, Redwood City, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+BRDG|20210716.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ERAS|20210716.0,KPMG LLP,1.0,kpmg,180.0
+IMGO|20210716.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RGC|20210716.0,Friedman LLP,0.0,,
+STVN|20210716.0,EY S.p.A.,1.0,ey,180.0
+TCRX|20210716.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+HCWB|20210720.0,Grant Thornton LLP,0.0,,
+LAW|20210721.0,Ernst & Young LLP,1.0,ey,180.0
+KLTR|20210721.0,"Kost Forer Gabbay & Kasierer, a member of Ernst & Young Global",1.0,ey,150.0
+PYCR|20210721.0,Ernst & Young LLP (“EY”),1.0,ey,180.0
+VEEE|20210721.0,,,,
+VTEX|20210721.0,,,,
+ABSI|20210722.0,"Latham & Watkins LLP, Menlo Park, California. Experts Ernst & Young LLP",1.0,ey,180.0
+BASE|20210722.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+INST|20210722.0,,,,
+RYAN|20210722.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ZENV|20210722.0,,,,
+ZVIA|20210722.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CRBU|20210723.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CNM|20210723.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+CTKB|20210723.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+OB|20210723.0,KPMG LLP,1.0,kpmg,180.0
+SOPH|20210723.0,,,,180.0
+XPOF|20210723.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CADL|20210727.0,KPMG LLP,1.0,kpmg,180.0
+DUOL|20210728.0,Deloitte & Touche LLP,1.0,deloitte,
+MLNK|20210728.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+PWSC|20210728.0,Deloitte & Touche LLP,1.0,deloitte,
+SNPO|20210728.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+ICVX|20210729.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+NUVL|20210729.0,KPMG LLP,1.0,kpmg,180.0
+RLYB|20210729.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RSKD|20210729.0,,,,180.0
+HOOD|20210729.0,Ernst & Young LLP,1.0,ey,
+COOK|20210729.0,Ernst & Young LLP,1.0,ey,180.0
+DOLE|20210730.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+INAB|20210730.0,CohnReznick LLP,0.0,,180.0
+IMRX|20210730.0,RSM US LLP,0.0,,180.0
+OMGA|20210730.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RANI|20210730.0,Ernst & Young LLP,1.0,ey,180.0
+RXST|20210730.0,,,,180.0
+TNYA|20210730.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+EWCZ|20210805.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+WEBR|20210805.0,Ernst & Young LLP,1.0,ey,180.0
+ADGI|20210806.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+ELYM|20210810.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SSBK|20210812.0,"Mauldin Jenkins, LLC",0.0,,180.0
+DATS|20210813.0,"D. Brooks and Associates CPAs, P.A.",0.0,,180.0
+DRMA|20210813.0,Table of Contents EXPERTS Mayer Hoffman McCann P.C.,0.0,,
+RNXT|20210826.0,"Frank, Rimerman & Co. LLP",0.0,,
+SQL|20210827.0,"Wolf & Company, P.C.",0.0,,180.0
+DDI|20210831.0,"Bae Kim & Lee LLC, Seoul, Korea. Experts Ernst & Young LLP",1.0,ey,
+SRAD|20210914.0,,,,180.0
+DICE|20210915.0,EXPERTS Ernst & Young LLP,1.0,ey,180.0
+DH|20210915.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+BROS|20210915.0,KPMG LLP,1.0,kpmg,
+EZFL|20210915.0,M&K CPAS PLLC,0.0,,
+ONON|20210915.0,PricewaterhouseCoopers AG,1.0,pwc,
+KTTA|20210915.0,,,,
+PRCT|20210915.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TWKS|20210915.0,Ernst & Young LLP,1.0,ey,180.0
+TYRA|20210915.0,"Sidley Austin LLP, San Francisco, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+ACT|20210916.0,KPMG LLP,1.0,kpmg,
+FORG|20210916.0,Ernst & Young LLP,1.0,ey,
+AKA|20210922.0,,,,180.0
+FRSH|20210922.0,Deloitte & Touche LLP,1.0,deloitte,
+TOST|20210922.0,Ernst & Young LLP,1.0,ey,
+BRLT|20210923.0,"BDO USA, LLP",0.0,,180.0
+ESMT|20210923.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+RELY|20210923.0,PricewaterhouseCoopers LLP,1.0,pwc,
+SOVO|20210923.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+STER|20210923.0,our,0.0,,180.0
+THRN|20210923.0,"BDO USA, LLP",0.0,,180.0
+CWAN|20210924.0,KPMG LLP,1.0,kpmg,
+HLTH|20210924.0,"BDO USA, LLP",0.0,,180.0
+AMPL|20210928.0,KPMG LLP,1.0,kpmg,
+WRBY|20210929.0,Ernst & Young LLP,1.0,ey,
+OLPX|20210930.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+EXAI|20211001.0,,,,180.0
+FWRG|20211001.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+TDCX|20211001.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+VLCN|20211006.0,MaloneBailey LLP,0.0,,90.0
+LTH|20211007.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+THRX|20211007.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+CGTX|20211008.0,Ernst & Young LLP,1.0,ey,180.0
+ISO|20211008.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+PYXS|20211008.0,Ernst & Young LLP,1.0,ey,180.0
+AVDX|20211013.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+HCTI|20211013.0,our,0.0,,180.0
+GTLB|20211014.0,KPMG LLP,1.0,kpmg,
+IHS|20211014.0,,,,
+LUCD|20211014.0,"Marcum, LLP",0.0,,180.0
+INKT|20211015.0,KPMG LLP,1.0,kpmg,180.0
+FNA|20211015.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CYN|20211020.0,Marcum LLP,0.0,,
+CNTX|20211020.0,CohnReznick LLP,0.0,,
+SDIG|20211020.0,,,,
+ENFN|20211021.0,Ernst & Young LLP,1.0,ey,180.0
+PTLO|20211021.0,Deloitte & Touche LLP,1.0,deloitte,
+COCO|20211021.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+VTYX|20211021.0,Ernst & Young LLP,1.0,ey,180.0
+ARIS|20211022.0,"Statement have been so included in reliance on the report of BDO USA, LLP",0.0,,180.0
+UTRS|20211022.0,"BDO USA, LLP",0.0,,180.0
+XLO|20211022.0,"Ernst & Young LLP, or EY",1.0,ey,180.0
+AIP|20211027.0,"Moss Adams, LLP",0.0,,180.0
+INFA|20211027.0,"Fenwick & West LLP, Mountain View, California. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+MRAI|20211027.0,UHY LLP,0.0,,
+RENT|20211027.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+FLNC|20211028.0,Ernst & Young LLP,1.0,ey,180.0
+GFS|20211028.0,KPMG LLP (Singapore),1.0,kpmg,180.0
+DTC|20211028.0,Ernst & Young LLP,1.0,ey,180.0
+AIRS|20211029.0,Grant Thornton LLP,0.0,,180.0
+AURA|20211029.0,"Cooley LLP, Boston, Massachusetts. EXPERTS Ernst & Young LLP",1.0,ey,
+BFRI|20211029.0,Grant Thornton LLP,0.0,,
+TRDA|20211029.0,Ernst & Young LLP,1.0,ey,
+HRT|20211029.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+SONX|20211029.0,"Shearman & Sterling LLP, New York, New York. EXPERTS Ernst & Young LLP",1.0,ey,180.0
+UDMY|20211029.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+LIAN|20211101.0,KPMG LLP,1.0,kpmg,180.0
+BIRD|20211103.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CMTG|20211103.0,,,,
+ARHS|20211104.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+NRDS|20211104.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+CIAN|20211105.0,,,,180.0
+IOBT|20211105.0,EY Godkendt Revisionspartnerselskab,1.0,ey,180.0
+MYNZ|20211105.0,BF Borgers CPA P.C.,0.0,,
+RGF|20211105.0,Grant Thornton LLP,0.0,,180.0
+SOPA|20211109.0,Vietnam and its guiding decrees and circulars. EXPERTS RBSM LLP,0.0,,
+STRN|20211109.0,,,,180.0
+TCBX|20211109.0,Whitley Penn LLP,0.0,,
+BJDX|20211110.0,"Wolf and Company, P.C.",0.0,,
+CINT|20211110.0,,,,
+EXFY|20211110.0,Ernst & Young LLP,1.0,ey,180.0
+RIVN|20211110.0,KPMG LLP (“KPMG”),1.0,kpmg,180.0
+BLZE|20211111.0,"BDO USA, LLP",0.0,,
+BEAT|20211111.0,Friedman LLP,0.0,,
+PIK|20211111.0,"CohnReznick LLP, New York, New York",0.0,,
+LVLU|20211111.0,Deloitte & Touche LLP,1.0,deloitte,
+TIVC|20211111.0,"Marlow, LLP, New York, New York. EXPERTS Rosenberg Rich Baker Berman, P.A.",0.0,,
+VAXX|20211111.0,Armanino LLP,0.0,,180.0
+WEAV|20211111.0,PricewaterhouseCoopers LLP,1.0,pwc,
+WBEV|20211111.0,"Baker Tilly US, LLP",0.0,,180.0
+BTBD|20211112.0,Boulay PLLP,0.0,,180.0
+DERM|20211112.0,KPMG LLP,1.0,kpmg,180.0
+BRZE|20211117.0,Ernst & Young LLP,1.0,ey,
+IREN|20211117.0,Armanino LLP (“Armanino”),0.0,,
+SEV|20211117.0,,,,
+USER|20211117.0,Regulation S-K. EXPERTS Ernst & Young LLP,1.0,ey,180.0
+SG|20211118.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+FINW|20211119.0,,,,
+LITM|20211119.0,DeVisser Gray LLP,0.0,,
+REFI|20211208.0,,,,
+CING|20211208.0,KPMG LLP,1.0,kpmg,
+HCP|20211209.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+NRSN|20211209.0,,,,180.0
+NU|20211209.0,independent auditors. The financial institutions may only hire,0.0,,
+VINE|20211214.0,Wipfli LLP,0.0,,180.0
+SIDU|20211214.0,,,,
+GNTA|20211215.0,Mayer Hoffman McCann P.C.,0.0,,
+IOT|20211215.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+IMMX|20211216.0,KMJ Corbin & Company LLP,0.0,,
+NXGL|20211222.0,"Turner, Stone & Company, L.L.P.",0.0,,180.0
+AMLX|20220107.0,Deloitte & Touche LLP,1.0,deloitte,
+CINC|20220107.0,Ernst & Young LLP,1.0,ey,180.0
+HOUR|20220107.0,"TPS Thayer, LLC",0.0,,
+VIGL|20220107.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+HILS|20220112.0,Mayer Hoffman McCann P.C.,0.0,,180.0
+TPG|20220113.0,,,,
+FGI|20220125.0,Marcum LLP,0.0,,180.0
+CRDO|20220127.0,"Sullivan & Cromwell LLP, Palo Alto, California. EXPERTS Ernst & Young LLP",1.0,ey,
+MTEK|20220202.0,PricewaterhouseCoopers International Limited,1.0,pwc,120.0
+ACLX|20220204.0,Table of Contents EXPERTS Ernst & Young LLP,1.0,ey,180.0
+NVCT|20220204.0,PricewaterhouseCoopers International Limited,1.0,pwc,
+HTCR|20220210.0,"MaloneBailey, LLP",0.0,,
+SKYX|20220210.0,"M&K CPAS, PLLC",0.0,,
+DRCT|20220211.0,"Marcum LLP, our",0.0,,180.0
+MDV|20220211.0,,,,
+TCBP|20220211.0,Ernst & Young LLP,1.0,ey,
+MHUA|20220216.0,Briggs & Veselka Co.,0.0,,
+SMFL|20220216.0,,,,
+BWV|20220218.0,Mayer Hoffman McCann P.C.,0.0,,
+AKAN|20220315.0,,,,
+ANTX|20220325.0,PricewaterhouseCoopers LLP,1.0,pwc,
+LCFY|20220325.0,Grant Thornton Audit Pty Ltd,0.0,,180.0
+RVSN|20220331.0,"Brightman Almagor Zohar & Co., a Firm in the Deloitte Global Network",1.0,deloitte,180.0
+XPON|20220401.0,M&K CPAS PLLC,0.0,,180.0
+GNS|20220412.0,,,,
+EE|20220413.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+STSS|20220414.0,Manning Elliott LLP,0.0,,180.0
+ACON|20220422.0,"Daszkal Bolton LLP (“Daszkal”), 490 Sawgrass Corporate Pkwy, Fort Lauderdale, FL 33325",0.0,,
+JCSE|20220422.0,"WWC, P.C.",0.0,,
+OST|20220427.0,"TPS Thayer, LLC",0.0,,
+TNON|20220427.0,EXPERTS Armanino LLP,0.0,,
+BLTE|20220429.0,Friedman LLP,0.0,,180.0
+HLVX|20220429.0,"Polk & Wardwell LLP, Menlo Park, California. Experts Ernst & Young LLP",1.0,ey,180.0
+AUST|20220504.0,Manning Elliot LLP,0.0,,
+EDBL|20220505.0,"New York, NY, is acting as counsel to the underwriters. EXPERTS Marcum LLP",0.0,,
+BLCO|20220506.0,PricewaterhouseCoopers LLP,1.0,pwc,125.0
+PEPG|20220506.0,KPMG LLP,1.0,kpmg,180.0
+HNVR|20220511.0,,,,
+ASNS|20220513.0,PricewaterhouseCoopers International Limited,1.0,pwc,
+PFHC|20220513.0,Grant Thornton LLP,0.0,,
+BGXX|20220517.0,"SRCO, C.P.A., Professional Corporation",0.0,,
+VEDU|20220517.0,MNP LLP,0.0,,
+TOP|20220601.0,Friedman LLP,0.0,,180.0
+PEV|20220608.0,Marcum Bernstein & Pinchuk LLP,0.0,,
+HSCS|20220615.0,Haskell & White LLP,0.0,,
+LYT|20220615.0,,,,
+GSUN|20220622.0,Friedman LLP,0.0,,
+IE|20220628.0,Deloitte LLP,1.0,deloitte,180.0
+nan|20220712.0,"MaloneBailey, LLP",0.0,,180.0
+ILAG|20220713.0,"Wei, Wei & Co., LLP",0.0,,180.0
+HKD|20220715.0,Deloitte Touche Tohmatsu,1.0,deloitte,
+VRAX|20220721.0,,,,
+MAIA|20220728.0,EisnerAmper LLP,0.0,,
+MGAM|20220729.0,"AJSH & Co, LLP",0.0,,
+BRSH|20220803.0,,,,
+MEGL|20220805.0,Friedman LLP,0.0,,
+TGL|20220811.0,Philippines. EXPERTS Friedman LLP,0.0,,
+CHG|20220812.0,"Grassi & Co., CPAs, P.C.",0.0,,
+FRZA|20220812.0,,,,
+LUCY|20220815.0,Cherry Bekaert LLP,0.0,,
+GCT|20220817.0,KPMG Huazhen LLP,1.0,kpmg,180.0
+STBX|20220823.0,Friedman LLP,0.0,,180.0
+JFBR|20220826.0,"Brightman Almagor Zohar & Co., a Firm in the Deloitte Global Network",1.0,deloitte,180.0
+JZ|20220826.0,,,,
+ONFO|20220826.0,,,,
+PXMD|20220826.0,Marcum LLP,0.0,,
+HPCO|20220830.0,dbbmckennon,0.0,,
+SHPH|20220831.0,BF Borgers CPA PC,0.0,,
+BIAF|20220901.0,Ernst & Young LLP,1.0,ey,180.0
+YOSH|20220909.0,BF Borgers CPA PC,0.0,,
+WLDS|20220913.0,,,,
+CRBG|20220915.0,,,,180.0
+THRD|20220915.0,Deloitte & Touche LLP,1.0,deloitte,180.0
+NXL|20220916.0,"Friedman, LLP",0.0,,180.0
+LASE|20220930.0,BF Borgers CPA PC (“BF Borgers”),0.0,,
+PRME|20221019.0,,,,180.0
+MBLY|20221026.0,PricewaterhouseCoopers International Limited,1.0,pwc,180.0
+ASPI|20221109.0,EisnerAmper LLP,0.0,,180.0
+SNAL|20221110.0,"BDO USA, LLP",0.0,,180.0
+ATAT|20221111.0,,,,
+ACRV|20221114.0,PricewaterhouseCoopers LLP,1.0,pwc,180.0
+JEWL|20221206.0,"Carmel, Milazzo & Feil LLP. EXPERTS Semple, Marchal & Cooper, LLP",0.0,,
+RAYA|20221214.0,,,,
+LIPO|20221220.0,"Urish Popeck & Co., LLC",0.0,,
+COYA|20221229.0,"Weaver and Tidwell, L.L.P",0.0,,180.0

@@ -1,0 +1,87 @@
+N=828  ranks: {2.0: 12, 3.0: 25, 4.0: 18, 5.0: 16, 6.0: 7, 7.0: 70, 8.0: 129, 9.0: 551}
+
+== D1  threshold regression: y = a*1[uw < c] + controls + FE; c chosen by least squares (Hansen 2000)
+  lnpub    cut at uw < 4.5  sup-F=  59.7  bootstrap p=0.000  95% set for the cut: [3.5, 4.5]  N=828
+           LR by cut: 2.5:53.7  3.5:5.2  4.5:0.0  5.5:16.7  6.5:28.3  7.5:51.8  8.5:59.7
+  lnamend  cut at uw < 4.5  sup-F=  36.1  bootstrap p=0.000  95% set for the cut: [4.5, 5.5]  N=828
+           LR by cut: 2.5:27.8  3.5:10.6  4.5:0.0  5.5:1.8  6.5:8.5  7.5:29.7  8.5:34.3
+  rev      cut at uw < 8.5  sup-F=  36.2  bootstrap p=0.000  95% set for the cut: [8.5]  N=812
+           LR by cut: 2.5:28.1  3.5:36.2  4.5:35.7  5.5:31.4  6.5:31.2  7.5:19.7  8.5:0.0
+  irw      cut at uw < 8.5  sup-F=   3.6  bootstrap p=0.558  95% set for the cut: [2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5]  N=828
+           LR by cut: 2.5:0.8  3.5:3.3  4.5:3.6  5.5:3.6  6.5:3.1  7.5:2.9  8.5:0.0
+
+== D2  divisions: second = rank < 5, elite = rank 9, reference = ranks 5-8
+  N second / middle / elite: 55 222 551   median proceeds $M: {'elite': 191.2, 'middle': 81.6, 'second': 15.0}
+  ln total registration          second    0.253 (t= 1.67)  elite   -0.024 (t=-1.44)  mean=  4.84  N=828
+  ln confidential phase          second    0.132 (t= 0.90)  elite   -0.068 (t=-2.12)  mean=  4.42  N=752
+  ln public window               second    0.758 (t=14.78)  elite    0.004 (t= 0.09)  mean=  3.68  N=828
+  ln(1+confidential drafts)      second   -0.017 (t=-0.31)  elite    0.015 (t= 0.72)  mean=  1.22  N=752
+  ln(1+public amendments)        second    0.375 (t= 7.23)  elite   -0.034 (t=-1.66)  mean=  1.27  N=828
+  price revision, %              second   13.523 (t= 6.11)  elite    4.292 (t= 5.72)  mean=  0.15  N=812
+  first-day return, %            second    9.921 (t= 1.64)  elite    2.623 (t= 1.19)  mean= 24.14  N=828
+  90-day abnormal, survivors     second  -28.830 (t=-2.56)  elite    0.708 (t= 0.20)  mean=  2.70  N=463
+  exit within 3y                 second   -0.135 (t=-3.17)  elite    0.051 (t= 1.27)  mean=  0.12  N=828
+  acquired within 3y             second   -0.128 (t=-3.47)  elite    0.046 (t= 1.30)  mean=  0.10  N=828
+  failed/delisted within 3y      second   -0.007 (t=-0.34)  elite    0.005 (t= 0.63)  mean=  0.02  N=828
+  deficiency notice within 3y    second    0.100 (t= 1.24)  elite   -0.029 (t=-1.42)  mean=  0.27  N=828
+  price revision, % (no proceeds control) second    0.918 (t= 0.38)  elite    8.531 (t=14.13)  N=812
+  first-day return, % (no proceeds control) second    1.055 (t= 0.53)  elite    5.765 (t= 2.72)  N=828
+  failed within 3y               FE only: second    0.035 (t= 1.66)  elite   -0.010 (t=-1.17)
+  deficiency notice 3y           FE only: second    0.299 (t= 5.02)  elite   -0.095 (t=-2.99)
+  acquired within 3y             FE only: second   -0.083 (t=-4.54)  elite    0.028 (t= 1.30)
+  lnpub with the linear rank too: second    0.501 (t=15.22)  elite    0.103 (t= 1.97)  uw   -0.067 (t=-2.55)
+  linear rank within ranks 5-9 only: uw   -0.026 (t=-1.07)  N=773
+
+== D3  the bank or the deal size?
+  proceeds <= $20M: N second/first 36/8  lnpub second    0.920 (t= 0.41)  lnamend second    0.127 (t= 0.23)
+  proceeds <= $40M: N second/first 51/27  lnpub second    0.561 (t= 1.58)  lnamend second    0.181 (t= 0.61)
+  proceeds <= $60M: N second/first 54/90  lnpub second    0.441 (t= 4.10)  lnamend second    0.149 (t= 1.15)
+  proceeds-decile fixed effects (non-linear size): second    0.522 (t= 7.31)  elite    0.031 (t= 1.31)
+  + ln post-IPO shares, range width: second    0.769 (t= 2.02)  N=185
+  entropy balancing, proceeds <= $40M (max weight share of one control IPO: 0.30):
+          second  first raw  first weighted
+lnage      2.095      2.371           2.102
+vc         0.294      0.519           0.178
+lnassets  15.235     16.663          16.141
+loss       0.843      0.741           0.734
+rnd_int    0.686      0.762           0.468
+lnproc     2.426      3.143           2.460
+big4       0.176      0.407           0.205
+big4_na    0.078      0.074           0.163
+nasdaq     1.000      0.963           1.000
+tech       0.294      0.370           0.196
+dual       0.333      0.111           0.447
+nasdaq90   4.759      4.839           5.589
+lnipo90    3.237      3.144           3.068
+ir90      23.611     19.616          21.026
+biotech    0.471      0.333           0.538
+    ln public window     second    0.157 (t= 0.42)  N=78
+    ln(1+amendments)     second    0.196 (t= 0.97)  N=78
+    price revision       second   16.235 (t= 1.58)  N=70
+    first-day return     second   -3.407 (t=-0.23)  N=78
+    failed within 3y     second   -0.053 (t=-0.63)  N=78
+
+== D4  robustness of the second-division effect on ln public window
+  baseline                        0.758 (t=14.78)  N=828  n_second=55
+  cluster by year only            0.758 (t= 5.45)  N=828  n_second=55
+  cut at rank < 6                 0.601 (t= 6.40)  N=828  n_second=71
+  max rank of bookrunners         0.754 (t=14.04)  N=828  n_second=54
+  drop biotech                    0.654 (t= 4.77)  N=514  n_second=29
+  drop 2020-21                    0.970 (t= 9.21)  N=524  n_second=31
+  EGC only                        0.654 (t=20.76)  N=730  n_second=52
+  confidential filers only        0.567 (t= 4.24)  N=752  n_second=46
+  public filers only              0.323 (t= 0.78)  N=76  n_second=9
+  no prior RW, not dormant        0.757 (t= 7.97)  N=783  n_second=48
+  year-quarter FE                 0.748 (t=11.81)  N=828  n_second=55
+
+  medians by division:
+          pub conf_period total_dur n_pub_amend    rev     ir    proc  exit3 exit_fail3 def301_3
+       median      median    median      median median median  median median     median   median
+elite    29.0        73.0     108.0         2.0   5.56  19.35  191.25    0.0        0.0      0.0
+middle   31.0        69.0     109.0         2.0   0.00  10.93   81.55    0.0        0.0      0.0
+second   89.0        91.5     177.0         5.0  -9.09  -1.60   15.00    0.0        0.0      1.0
+  shares:
+        exit3  exit_merger3  exit_fail3  def301_3  confidential    egc  biotech
+elite   0.120         0.111       0.009     0.209         0.898  0.842    0.298
+middle  0.113         0.090       0.023     0.311         0.950  0.964    0.559
+second  0.109         0.018       0.091     0.673         0.836  0.945    0.473
