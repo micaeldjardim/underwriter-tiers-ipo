@@ -2,16 +2,17 @@
 
 Code and derived data for:
 
-> Jardim, M., Caldieraro, F., Parente, R. *Prestige comes in tiers: Underwriter rank, SEC review time and IPO pricing.* Working paper, 2026.
+> Jardim, M. *Prestige comes in tiers: Underwriter rank, SEC review and IPO pricing.* Working paper, 2026.
 
-The paper rebuilds the SEC registration history of 1,039 U.S. IPOs priced from 2012 to 2022. It uses a threshold regression (Hansen, 2000) to locate where the 1–9 underwriter rank actually breaks.
+The paper rebuilds the SEC registration history of 1,039 U.S. IPOs priced from 2012 to 2022. It uses a threshold regression (Hansen, 2000) to locate where the 1–9 underwriter rank actually breaks. It then reads the SEC comment letters and the prospectuses of these IPOs to see where in the review the tiers differ.
 
 ## What is here
 
 | Folder | Contents |
 |---|---|
-| `code/` | Python scripts `11`–`20`, run in numeric order (see below) |
+| `code/` | Python scripts `11`–`24`, run in numeric order (see below) |
 | `data/universe/` | Derived data, one row per IPO, keyed by `key` |
+| `data/text/` | Lists of every EDGAR document and SEC letter used, with accession numbers (`docs.csv`, `letters.csv`) |
 | `data/market_index.csv` | Daily S&P 500, Russell 2000 (IWM) and Nasdaq Composite closes from Yahoo Finance |
 | `output/` | The estimates reported in the paper |
 
@@ -25,20 +26,37 @@ The paper rebuilds the SEC registration history of 1,039 U.S. IPOs priced from 2
 | `analysis.csv` | Merged file after the sample filters, with every variable used in the paper | `15` |
 | `exits.csv` | Exchange exits within one, two and three years, from EDGAR Forms 25, 25-NSE and 15 and 8-K items 1.03, 2.01, 3.01 and 5.01 | `18` |
 | `workload.csv` | SEC registration workload in the 30 days before each public filing, EDGAR-wide and by Corporation Finance office | `19` |
+| `sec_letters.csv` | SEC staff comment letters on each IPO registration: rounds and numbered comments, confidential and public phase, comments in the first letter | `22` |
+| `prospectus_tone.csv` | Length, risk-factor length and Loughran–McDonald tone (shares of words) of the first public registration statement and the pricing prospectus | `24` |
+
+In `data/text/`, `docs.csv` lists the first public registration statement, the last pre-pricing amendment and the pricing prospectus of each IPO; `letters.csv` lists every SEC staff letter (UPLOAD) and issuer response (CORRESP) in the window that `21` searches. Both are produced by `21`; `n_chars` is the size of the stored text file.
 
 ## What is not here, and why
 
 - **First-day returns from Bloomberg (1,008 IPOs) and Refinitiv Eikon (11 IPOs)** are licensed and cannot be redistributed. The columns `ir`, `ir_bb`, `size_bb` and `ir_ek` were removed. `ir_src` still records which source each IPO used. `ir_yf`, the Yahoo Finance return, is kept but covers only 572 of the 1,039 IPOs.
 - **Jay Ritter's files.** Download `IPO-age.xlsx` (founding dates) and `Underwriter-Rank.xls` from <https://site.warrington.ufl.edu/ritter/ipo-data/> into `data/external/`. You only need them to rebuild from scratch.
-- **Raw EDGAR caches** (about 2.7 GB). The scripts download what they need from EDGAR.
+- **Raw EDGAR caches** (about 2.7 GB) and **the text of the prospectuses and SEC letters** (about 1 GB). They are public on EDGAR; `21` downloads them again from the accession numbers.
+- **The Loughran–McDonald master dictionary.** Download `Loughran-McDonald_MasterDictionary_1993-2025.csv` from <https://sraf.nd.edu/loughranmcdonald-master-dictionary/> into `data/text/lm/` and save it as `LM_MasterDictionary_1993-2025.csv`.
 
 ## Reproducing the paper
 
 ```
 pip install -r requirements.txt
-python code/17_universe_divisions.py   # Tables 2-5 and Fig. 1 (runs 16 first)
-python code/20_identification.py       # Table 6
+python code/17_universe_divisions.py   # Tables 2-4, 9 and 11, Fig. 1 (runs 16 first)
+python code/20_identification.py       # Table 10
 ```
+
+The comment-letter and prospectus tables (5 to 8) need the texts. Download them, then run the analyses:
+
+```
+export SEC_USER_AGENT="Your Name your.email@example.com"
+python code/21_text_download.py   # about 6,000 documents and 24,000 letters; hours
+python code/22_sec_letters.py     # Tables 5 and 7
+python code/23_letter_topics.py   # Table 6
+python code/24_prospectus_tone.py # Table 8
+```
+
+`21` reads the EDGAR submission files that `11` saves in `data/edgar/submissions/`, so run `11` first.
 
 On the published files, every estimate for review time, amendments, price revisions, exits, SEC workload and the Nasdaq 2019 rule reproduces the paper exactly. That covers 46 of the 52 rows in `divisions_estimates.csv` and all 19 rows in `identification_estimates.csv`. The six first-day-return rows need the licensed returns. If `analysis.csv` has no `ir` column, `16` falls back to the Yahoo return. To match the paper, add your own `ir` (offer price to first close, in percent) from Bloomberg or CRSP.
 

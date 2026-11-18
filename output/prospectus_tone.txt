@@ -1,0 +1,26 @@
+IPOs with both documents: 828  (second 55); risk section found first/final: 786 792
+                           elite     middle    second
+words_first            116110.00  116438.50  81892.00
+words_final_424        116817.00  114380.00  85368.00
+risk_words_first        24802.00   26561.00  19641.00
+risk_words_final_424    25406.50   26816.00  19845.00
+negative_first              1.63       1.73      1.63
+negative_final_424          1.62       1.74      1.62
+uncertainty_first           1.47       1.56      1.58
+uncertainty_final_424       1.45       1.54      1.59
+litigious_first             1.06       1.13      1.14
+positive_first              0.66       0.67      0.62
+
+== division effects; controls + FE, two-way clusters
+  ln_words_first         second   -0.236 (t=-4.00)  elite    0.002 (t= 0.30)  mean= 11.639  N=828
+  ln_risk_words_first    second   -0.256 (t=-1.58)  elite    0.006 (t= 0.11)  mean=  9.909  N=786
+  negative_first         second   -0.081 (t=-2.16)  elite    0.024 (t= 1.60)  mean=  1.659  N=828
+  uncertainty_first      second   -0.025 (t=-1.04)  elite    0.004 (t= 0.34)  mean=  1.504  N=828
+  litigious_first        second    0.023 (t= 0.53)  elite   -0.016 (t=-1.85)  mean=  1.077  N=828
+  positive_first         second   -0.021 (t=-1.25)  elite    0.029 (t= 1.91)  mean=  0.665  N=828
+  dln_words              second    0.026 (t= 2.32)  elite    0.020 (t= 2.93)  mean= -0.002  N=828
+  dln_risk_words         second    0.028 (t= 1.27)  elite    0.013 (t= 0.78)  mean=  0.030  N=784
+  d_negative             second   -0.007 (t=-1.78)  elite   -0.004 (t=-1.69)  mean= -0.002  N=828
+  d_uncertainty          second   -0.006 (t=-0.75)  elite   -0.007 (t=-4.13)  mean= -0.014  N=828
+  d_litigious            second   -0.033 (t=-2.54)  elite    0.000 (t= 0.28)  mean= -0.089  N=828
+  d_positive             second    0.007 (t= 1.31)  elite   -0.005 (t=-3.56)  mean=  0.008  N=828

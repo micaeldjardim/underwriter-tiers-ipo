@@ -4,3 +4,6 @@ data/analysis.csv
 data/edgar_timeline.csv
 data/universe/*_cache.json
 __pycache__/
+data/text/docs/
+data/text/letters/
+data/text/lm/
