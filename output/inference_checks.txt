@@ -1,0 +1,62 @@
+== S1  summary statistics
+              var                                    label   N    mean       sd    p25  median     p75
+              pub                     Public window (days) 828  54.740   67.500 26.000  31.000  49.000
+      conf_period                Confidential phase (days) 752 107.694  110.831 55.000  73.000 112.000
+        total_dur                Total registration (days) 828 152.550  120.694 86.000 111.000 166.500
+      n_pub_amend                        Public amendments 828   2.873    1.696  2.000   2.000   4.000
+        n_drs_all                      Confidential drafts 828   2.336    1.335  2.000   2.000   3.000
+              rev                       Price revision (%) 812   0.147   18.850 -7.692   0.000  11.111
+              irw                     First-day return (%) 828  24.145   36.138  0.000  15.895  38.557
+               uw                    Lead underwriter rank 828   8.181    1.598  8.000   9.000   9.000
+           second               Second division (rank 2-4) 828   0.066    0.249  0.000   0.000   0.000
+            elite                           Elite (rank 9) 828   0.665    0.472  0.000   1.000   1.000
+             proc                     Proceeds ($ million) 828 286.830  634.217 75.030 131.014 266.167
+         assets_m                 Total assets ($ million) 828 818.187 2658.834 45.819 108.866 404.777
+              age                         Firm age (years) 828  16.287   20.559  6.000  10.000  17.000
+               vc                                VC-backed 828   0.675    0.469  0.000   1.000   1.000
+             loss                                     Loss 828   0.762    0.426  1.000   1.000   1.000
+          rnd_int                             R&D / assets 828   0.301    0.613  0.000   0.148   0.319
+             big4                         Big Four auditor 828   0.784    0.412  1.000   1.000   1.000
+             dual                        Dual-class shares 828   0.233    0.423  0.000   0.000   0.000
+           nasdaq                           Nasdaq listing 828   0.736    0.441  0.000   1.000   1.000
+        secondary                         Secondary shares 828   0.029    0.168  0.000   0.000   0.000
+             tech                          Technology firm 828   0.336    0.473  0.000   0.000   1.000
+          biotech                                  Biotech 828   0.379    0.485  0.000   0.000   1.000
+     confidential                       Confidential filer 828   0.908    0.289  1.000   1.000   1.000
+              egc                  Emerging growth company 828   0.882    0.323  1.000   1.000   1.000
+         nasdaq90         Nasdaq return, prior 90 days (%) 828   5.910    6.962  2.559   5.426   8.711
+         n_ipo90v                IPOs in the prior 90 days 828  32.345   19.097 18.000  28.000  41.000
+             ir90 Mean first-day return, prior 90 days (%) 828  25.285   13.557 15.958  23.623  33.167
+     comments_all                        SEC comments, all 828  33.127   22.948 19.000  27.000  41.250
+    comments_conf         SEC comments, confidential phase 828  25.257   18.983 14.000  22.000  33.000
+     comments_pub               SEC comments, public phase 828   7.870   15.721  0.000   2.000   6.000
+       rounds_all                   SEC letter rounds, all 828   3.303    1.516  2.000   3.000   4.000
+       rounds_pub          SEC letter rounds, public phase 828   1.370    1.366  0.000   1.000   2.000
+     first_letter             Comments in the first letter 821  22.798   12.736 14.000  20.000  28.000
+          words_k             Prospectus words (thousands) 828 116.368   26.038 99.837 114.439 132.151
+   negative_first                       Negative words (%) 828   1.659    0.271  1.449   1.653   1.862
+uncertainty_first                    Uncertainty words (%) 828   1.504    0.188  1.377   1.498   1.631
+  litigious_first                      Litigious words (%) 828   1.077    0.185  0.936   1.077   1.213
+   positive_first                       Positive words (%) 828   0.665    0.123  0.585   0.659   0.732
+
+== S2  clusters in the estimation sample: industries 45  issue quarters 42  IPO years 11
+outcome                      var       coef  t 2way   t qtr  t year  wild p     R2     N
+ln public window             second   0.758   14.78    6.87    5.45   0.002  0.468   828
+ln(1+public amendments)      second   0.375    7.23    5.28    3.77   0.002  0.368   828
+ln confidential phase        second   0.132    0.90    0.76    0.73   0.467  0.205   752
+ln(1+confidential drafts)    second  -0.017   -0.31   -0.30   -0.35   0.730  0.260   752
+ln total registration        second   0.253    1.67    2.05    1.79   0.097  0.267   828
+price revision, %            elite    8.531   14.13    5.91    5.96   0.001  0.329   812
+first-day return, %          elite    5.765    2.72    2.18    2.06   0.023  0.175   828
+ln(1+comments), all          second   0.034    0.19    0.23    0.30   0.746  0.380   825
+ln(1+comments), public       second   0.735    3.82    3.15    3.51   0.004  0.425   825
+ln(1+rounds), public         second   0.334    4.45    3.36    2.91   0.003  0.291   825
+ln first letter              second   0.129    1.35    1.74    1.76   0.214  0.415   821
+
+== S3  Table 'public comment load': second-division t under IPO-year clustering
+  lnpub    base            second  0.755  t 2way  15.98  t year  5.55  R2 0.469  N 825
+  lnpub    + public load   second  0.611  t 2way  25.56  t year  5.32  R2 0.540  N 825
+  lnpub    + first letter  second  0.689  t 2way   7.18  t year  4.14  R2 0.472  N 821
+  lnamend  base            second  0.373  t 2way   7.10  t year  3.78  R2 0.368  N 825
+  lnamend  + public load   second  0.255  t 2way   7.34  t year  3.18  R2 0.506  N 825
+  lnamend  + first letter  second  0.352  t 2way   7.40  t year  3.62  R2 0.385  N 821

@@ -10,7 +10,7 @@ The paper rebuilds the SEC registration history of 1,039 U.S. IPOs priced from 2
 
 | Folder | Contents |
 |---|---|
-| `code/` | Python scripts `11`–`24`, run in numeric order (see below) |
+| `code/` | Python scripts `11`–`25`, run in numeric order (see below) |
 | `data/universe/` | Derived data, one row per IPO, keyed by `key` |
 | `data/text/` | Lists of every EDGAR document and SEC letter used, with accession numbers (`docs.csv`, `letters.csv`) |
 | `data/market_index.csv` | Daily S&P 500, Russell 2000 (IWM) and Nasdaq Composite closes from Yahoo Finance |
@@ -42,21 +42,24 @@ In `data/text/`, `docs.csv` lists the first public registration statement, the l
 
 ```
 pip install -r requirements.txt
-python code/17_universe_divisions.py   # Tables 2-4, 9 and 11, Fig. 1 (runs 16 first)
-python code/20_identification.py       # Table 10
+python code/17_universe_divisions.py   # Tables 3-5, 10 and 12, Fig. 1 (runs 16 first)
+python code/20_identification.py       # Table 11
 ```
 
-The comment-letter and prospectus tables (5 to 8) need the texts. Download them, then run the analyses:
+The comment-letter and prospectus tables (6 to 9), the summary statistics (Table 2) and the year-clustered and bootstrap columns need the texts. Download them, then run the analyses:
 
 ```
 export SEC_USER_AGENT="Your Name your.email@example.com"
 python code/21_text_download.py   # about 6,000 documents and 24,000 letters; hours
-python code/22_sec_letters.py     # Tables 5 and 7
-python code/23_letter_topics.py   # Table 6
-python code/24_prospectus_tone.py # Table 8
+python code/22_sec_letters.py     # Tables 6 and 8
+python code/23_letter_topics.py   # Table 7
+python code/24_prospectus_tone.py # Table 9
+python code/25_descriptives_inference.py # Table 2; year-clustered t and wild-bootstrap p in Tables 5, 6 and 8
 ```
 
 `21` reads the EDGAR submission files that `11` saves in `data/edgar/submissions/`, so run `11` first.
+
+`25` needs the licensed first-day returns for its first-day-return rows, like `16`. On the published files, two of its wild-bootstrap p-values differ from the paper in the third decimal (0.727 for 0.730 and 0.002 for 0.003); every coefficient and t-statistic matches.
 
 On the published files, every estimate for review time, amendments, price revisions, exits, SEC workload and the Nasdaq 2019 rule reproduces the paper exactly. That covers 46 of the 52 rows in `divisions_estimates.csv` and all 19 rows in `identification_estimates.csv`. The six first-day-return rows need the licensed returns. If `analysis.csv` has no `ir` column, `16` falls back to the Yahoo return. To match the paper, add your own `ir` (offer price to first close, in percent) from Bloomberg or CRSP.
 
