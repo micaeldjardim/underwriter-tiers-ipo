@@ -1,0 +1,6 @@
+step,N
+matched to EDGAR (Ritter universe 2012-2022),1999
+drop financials (SIC 6000-6799),1727
+final prospectus readable,1724
+offer price read and gross proceeds confirmed by two cover readings,1623
+underwriting discount read on the cover,1597

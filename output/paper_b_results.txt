@@ -1,0 +1,275 @@
+N=1597; foreign 334; offer < $5 48; ranked lead bank 1468; assets in USD 1349; VC known 1595
+warrants: 178 | terms read: 147 | median cover/strike/years among read: {'w_cover': 5.0, 'w_strike': 125.0, 'w_years': 5.0, 'w_value': 2.33}
+
+== 1 contract by size of the offering
+           N  proceeds_med  spread    at7  above7  warrants  allowance  direct  direct_med   usd_m  foreign  penny     vc  bottom
+band                                                                                                                             
+<10       38         7.036   7.653  0.368   0.526     0.842      0.711  10.800      10.906   0.787    0.211  0.263  0.132   0.963
+10-25    140        16.000   7.329  0.414   0.514     0.857      0.500  10.114      10.333   1.672    0.279  0.250  0.239   0.842
+25-50    112        40.000   7.018  0.839   0.107     0.196      0.098   7.586       7.000   2.824    0.277  0.027  0.652   0.194
+50-100   387        75.000   6.956  0.951   0.008     0.005      0.003   6.969       7.000   5.250    0.181  0.000  0.775   0.003
+100-250  506       153.000   6.851  0.798   0.004     0.004      0.000   6.861       7.000  10.568    0.196  0.000  0.684   0.002
+>250     414       484.962   5.587  0.150   0.007     0.000      0.000   5.587       5.750  28.167    0.210  0.000  0.437   0.000
+by tier:
+            N  proceeds  warrants  above7  small  direct
+tier                                                    
+bottom    132    15.443     0.841   0.470  0.894  10.093
+elite     935   187.500     0.001   0.011  0.012   6.400
+middle    401    84.500     0.035   0.020  0.042   6.867
+unranked  129    50.250     0.403   0.248  0.442   8.432
+by year: share of IPOs below $25m and share on the small contract
+ipo_year    2012     2013     2014     2015    2016     2017     2018     2019     2020     2021    2022
+N         98.000  152.000  210.000  122.000  79.000  106.000  150.000  121.000  168.000  327.000  64.000
+below25    0.041    0.013    0.071    0.041   0.114    0.066    0.093    0.099    0.089    0.113   0.734
+small      0.041    0.059    0.076    0.057   0.101    0.113    0.093    0.099    0.125    0.162   0.734
+
+== 2 where is the step? LPM of warrants (and small contract) on 1[proceeds < c] + year FE, cutoffs $10-100m
+  uw_warrants: 10:0.221  12.5:0.324  15:0.382  17.5:0.470  20:0.523  22.5:0.601  25:0.658  27.5:0.746  30:0.738  35:0.728  40:0.682  45:0.626  50:0.578  60:0.477  75:0.376  100:0.281  -> best cutoff $27.5m (R2 0.746, jump 0.83)
+    bootstrap (300) location of the best cutoff: median 27.5, 90% range 27.5-35
+  small_contract: 10:0.223  12.5:0.318  15:0.375  17.5:0.464  20:0.527  22.5:0.611  25:0.661  27.5:0.746  30:0.747  35:0.732  40:0.710  45:0.657  50:0.614  60:0.507  75:0.408  100:0.306  -> best cutoff $30m (R2 0.747, jump 0.86)
+    bootstrap (300) location of the best cutoff: median 30, 90% range 27.5-35
+  linear-in-log-proceeds vs step: R2 of warrants on lnproc + year FE 0.427 | on bands + year FE 0.725
+
+== 3 mechanism: is there a floor in dollars?
+           N  proceeds  cash_usd  warrant_usd  total_usd  total_p10  total_p90  direct_pct
+band                                                                                      
+<10       38      7.04      0.62          NaN       0.79       0.40       0.98       10.91
+10-25    140     16.00      1.35          NaN       1.67       1.09       2.58       10.33
+25-50    112     40.00      2.80          NaN       2.82       2.29       3.50        7.00
+50-100   387     75.00      5.25          NaN       5.25       3.85       6.66        7.00
+100-250  506    153.00     10.57          NaN      10.57       7.44      15.35        7.00
+>250     414    484.96     28.17          NaN      28.17      18.02      62.38        5.75
+  elasticity of total $ | proceeds < $25m lnproc                    0.955  t2way  21.64  tyear  34.50  N=167  R2=0.817
+  elasticity of cash $ | proceeds < $25m lnproc                    0.927  t2way  32.76  tyear  30.48  N=167  R2=0.865
+  elasticity of total $ | $25-50m    lnproc                    0.617  t2way   6.01  tyear   7.33  N=114  R2=0.475
+  elasticity of cash $ | $25-50m     lnproc                    0.875  t2way  16.04  tyear  15.87  N=114  R2=0.835
+  elasticity of total $ | $50-250m   lnproc                    0.972  t2way  72.92  tyear  97.52  N=897  R2=0.975
+  elasticity of cash $ | $50-250m    lnproc                    0.972  t2way  74.57  tyear 111.73  N=897  R2=0.976
+  elasticity of total $ | > $250m    lnproc                    0.675  t2way  27.28  tyear  57.37  N=419  R2=0.923
+  elasticity of cash $ | > $250m     lnproc                    0.675  t2way  27.28  tyear  57.37  N=419  R2=0.923
+  among warrant IPOs: does the warrant share of compensation rise as proceeds fall?
+  warrant share of comp              lnproc                    0.015  t2way   1.80  tyear   0.71  N=147  R2=0.091
+  coverage % of shares               lnproc                    0.319  t2way   0.90  tyear   0.48  N=147  R2=0.075
+  spread among warrant IPOs          lnproc                   -0.479  t2way  -2.43  tyear  -2.99  N=147  R2=0.129
+
+== 4 bank or size?
+  IPOs with a lead bank that leads >= 3 IPOs: 1456, banks 46
+  R2 warrants: year 0.111 | + size bands 0.749 | + lead bank FE 0.849 | both 0.857
+  increment of bank FE over bands 0.108; increment of bands over bank FE 0.007
+  banks that ever take warrants: 23; their IPOs 485
+                       N  warr  small     med  rank
+lead_bank                                          
+j ?p ?morgan         214  0.00   0.00  163.50   9.0
+jefferies             80  0.01   0.00   92.78   8.0
+cowen                 34  0.03   0.00   82.50   7.0
+roth                  19  0.74   0.53   21.00   5.0
+maxim                 17  0.88   0.76   18.00   3.0
+thinkequity           17  1.00   0.71   18.00   3.0
+aegis                 14  0.93   0.71   19.51   3.0
+ef hutton             10  0.80   0.90   14.88   4.0
+benchmark              9  0.78   0.89   15.40   4.0
+oppenheimer            9  0.11   0.00   40.00   7.0
+dawson james           8  0.75   1.00   11.04   2.0
+national securities    8  1.00   0.75   21.80   2.5
+boustead               7  0.86   1.00   15.00   2.0
+mdb capital            6  1.00   0.83   18.10   4.0
+viewtrade              5  0.80   1.00    8.00   3.0
+laidlaw                5  0.80   1.00   15.00   4.0
+alexander capital      4  1.00   1.00   13.50   2.0
+kingswood              4  1.00   0.75   19.74   3.0
+chardan                3  0.33   0.67   20.40   4.0
+h ?c wainwright        3  0.67   0.67   16.00   7.0
+  within the banks that ever take warrants: share with warrants by size band
+           N  warrants  banks
+band                         
+<10       23     0.913     12
+10-25    100     0.910     18
+25-50     41     0.390     13
+50-100   104     0.019      7
+100-250  143     0.014      3
+>250      74     0.000      4
+  within warrant banks, bank FE      C(band, Treatment('25-50'))[T.10-25]    0.223  t2way   3.02  tyear   3.07  N=485  R2=0.828
+  within warrant banks, bank FE      C(band, Treatment('25-50'))[T.50-100]   -0.072  t2way  -1.99  tyear  -1.10  N=485  R2=0.828
+  within warrant banks, bank FE      lnproc                   -0.020  t2way  -1.74  tyear  -1.36  N=485  R2=0.818
+  banks with deals on both sides of $25m: 11, IPOs 110
+           N  warrants  direct
+side                          
+25+       30     0.700   8.990
+below 25  80     0.925  10.509
+  same bank, below vs above $25m     I(proc_m < 25)[T.True]    0.174  t2way   2.20  tyear   2.41  N=110  R2=0.329
+  tier given size, all IPOs with a ranked lead bank (middle omitted):
+  uw_warrants | bands                second                    0.499  t2way   5.14  tyear   5.41  N=1468  R2=0.762
+  uw_warrants | bands                elite                    -0.013  t2way  -1.77  tyear  -1.80  N=1468  R2=0.762
+  uw_warrants | bands + foreign + penny second                    0.499  t2way   5.07  tyear   5.43  N=1468  R2=0.762
+  uw_warrants | bands + foreign + penny elite                    -0.012  t2way  -1.64  tyear  -1.59  N=1468  R2=0.762
+  small_contract | bands             second                    0.478  t2way   4.62  tyear   4.44  N=1468  R2=0.752
+  small_contract | bands             elite                     0.002  t2way   0.24  tyear   0.15  N=1468  R2=0.752
+  small_contract | bands + foreign + penny second                    0.476  t2way   4.57  tyear   4.45  N=1468  R2=0.753
+  small_contract | bands + foreign + penny elite                     0.000  t2way   0.04  tyear   0.03  N=1468  R2=0.753
+  direct | bands                     second                    1.483  t2way   5.06  tyear   5.30  N=1468  R2=0.644
+  direct | bands                     elite                     0.001  t2way   0.04  tyear   0.03  N=1468  R2=0.644
+  direct | bands + foreign + penny   second                    1.427  t2way   4.55  tyear   5.02  N=1468  R2=0.652
+  direct | bands + foreign + penny   elite                     0.015  t2way   0.45  tyear   0.36  N=1468  R2=0.652
+  unranked lead banks (not in Ritter's ranking): 129 IPOs; warrants 0.403 median proceeds 50.2
+  leave-one-out warrant banks: IPOs led by one 147 of 1468 with the measure; banks 20
+                 N  warrants  direct
+band    wbank                       
+<10     0.0      1     1.000  10.810
+        1.0     24     0.917  10.986
+10-25   0.0     10     0.200   7.918
+        1.0     98     0.918  10.332
+25-50   0.0     75     0.013   7.038
+        1.0     21     0.762   9.027
+50-100  0.0    355     0.003   6.966
+        1.0      4     0.250   7.671
+100-250 0.0    480     0.004   6.858
+>250    0.0    400     0.000   5.568
+  uw_warrants: warrant bank given bands wbank                     0.658  t2way  10.82  tyear   7.86  N=1468  R2=0.836
+  uw_warrants: warrant bank, deals < $50m wbank                     0.720  t2way  11.20  tyear   7.13  N=221  R2=0.721
+  direct: warrant bank given bands   wbank                     1.871  t2way   9.27  tyear   7.31  N=1468  R2=0.682
+  direct: warrant bank, deals < $50m wbank                     2.091  t2way   9.67  tyear   5.70  N=221  R2=0.552
+
+== 5 venture backing (U.S. dollar assets and VC known)
+  N=1299; tercile cutoffs ($m): [52.4, 210.3]
+             N    assets  proceeds  bottom  elite  warrants  small  direct  foreign
+sz    vc                                                                           
+small 0.0  173     5.835    19.636   0.602  0.135     0.636  0.682   9.350    0.231
+      1.0  260    23.050    66.000   0.125  0.400     0.146  0.162   7.473    0.131
+mid   0.0   69   115.489   110.200   0.049  0.492     0.087  0.116   7.037    0.246
+      1.0  364    95.393   117.624   0.003  0.752     0.003  0.008   6.968    0.115
+large 0.0  272  1257.552   332.289   0.008  0.808     0.007  0.018   6.020    0.121
+      1.0  161   414.822   346.500   0.000  0.904     0.000  0.000   5.975    0.068
+  small: lnproc                      vc                        0.891  t2way   7.49  tyear   4.85  N=433  R2=0.346
+  small: second                      vc                       -0.377  t2way  -8.18  tyear  -3.71  N=373  R2=0.389
+  small: elite                       vc                        0.355  t2way  11.48  tyear   6.61  N=373  R2=0.202
+  small: uw_warrants                 vc                       -0.356  t2way  -6.74  tyear  -3.72  N=433  R2=0.373
+  small: small_contract              vc                       -0.360  t2way  -7.15  tyear  -3.48  N=433  R2=0.416
+  small: direct                      vc                       -1.284  t2way  -4.74  tyear  -3.28  N=433  R2=0.348
+  mid: lnproc                        vc                        0.172  t2way   1.40  tyear   1.51  N=433  R2=0.330
+  mid: second                        vc                       -0.044  t2way  -2.33  tyear  -1.65  N=400  R2=0.130
+  mid: elite                         vc                        0.276  t2way    nan  tyear   6.83  N=400  R2=0.172
+  mid: uw_warrants                   vc                       -0.057  t2way  -1.62  tyear  -1.46  N=433  R2=0.209
+  mid: small_contract                vc                       -0.072  t2way  -2.09  tyear  -1.42  N=433  R2=0.256
+  mid: direct                        vc                       -0.060  t2way  -0.43  tyear  -0.44  N=433  R2=0.166
+  large: lnproc                      vc                        0.431  t2way   4.95  tyear   4.94  N=433  R2=0.493
+  large: second                      vc                       -0.010  t2way  -2.25  tyear  -1.27  N=417  R2=0.039
+  large: elite                       vc                        0.106  t2way   1.79  tyear   1.41  N=417  R2=0.101
+  large: uw_warrants                 vc                       -0.016  t2way  -1.32  tyear  -1.41  N=433  R2=0.037
+  large: small_contract              vc                       -0.026  t2way  -2.57  tyear  -1.76  N=433  R2=0.031
+  large: direct                      vc                       -0.493  t2way  -4.40  tyear  -4.45  N=433  R2=0.406
+  decomposition in the small tercile:
+  uw_warrants (1) total              vc                       -0.356  t2way  -6.74  tyear  -3.72  N=433  R2=0.373
+  uw_warrants (2) + size bands       vc                       -0.028  t2way  -1.01  tyear  -0.58  N=433  R2=0.699
+  uw_warrants (3) + log proceeds     vc                       -0.028  t2way  -1.02  tyear  -0.59  N=433  R2=0.704
+    share of (1) gone with size bands 0.92; with bands and log proceeds 0.92
+  small_contract (1) total           vc                       -0.360  t2way  -7.15  tyear  -3.48  N=433  R2=0.416
+  small_contract (2) + size bands    vc                       -0.016  t2way  -0.46  tyear  -0.30  N=433  R2=0.761
+  small_contract (3) + log proceeds  vc                       -0.016  t2way  -0.47  tyear  -0.30  N=433  R2=0.767
+    share of (1) gone with size bands 0.96; with bands and log proceeds 0.96
+  direct (1) total                   vc                       -1.284  t2way  -4.74  tyear  -3.28  N=433  R2=0.348
+  direct (2) + size bands            vc                        0.007  t2way   0.04  tyear   0.03  N=433  R2=0.639
+  direct (3) + log proceeds          vc                        0.008  t2way   0.05  tyear   0.03  N=433  R2=0.642
+    share of (1) gone with size bands 1.01; with bands and log proceeds 1.01
+  the bank channel in the small tercile (leave-one-out warrant bank):
+  warrant bank on VC                 vc                       -0.424  t2way  -8.73  tyear  -3.95  N=374  R2=0.393
+  warrant bank on VC, given bands    vc                       -0.038  t2way  -1.59  tyear  -0.77  N=374  R2=0.812
+  uw_warrants (1) total, same N      vc                       -0.403  t2way  -7.68  tyear  -3.80  N=374  R2=0.385
+  uw_warrants (2) + warrant bank     vc                       -0.026  t2way  -1.43  tyear  -1.00  N=374  R2=0.877
+  uw_warrants (2) + warrant bank     wbank                     0.890  t2way  18.16  tyear  29.49  N=374  R2=0.877
+  uw_warrants (3) + warrant bank + bands vc                       -0.022  t2way  -1.55  tyear  -1.01  N=374  R2=0.879
+  uw_warrants (3) + warrant bank + bands wbank                     0.848  t2way  10.79  tyear  11.89  N=374  R2=0.879
+    share of (1) gone with the warrant bank 0.93; with bank and bands 0.94
+  direct (1) total, same N           vc                       -1.521  t2way  -5.91  tyear  -3.95  N=374  R2=0.366
+  direct (2) + warrant bank          vc                       -0.174  t2way  -0.95  tyear  -1.07  N=374  R2=0.732
+  direct (2) + warrant bank          wbank                     3.179  t2way  10.33  tyear  12.87  N=374  R2=0.732
+  direct (3) + warrant bank + bands  vc                       -0.053  t2way  -0.37  tyear  -0.31  N=374  R2=0.746
+  direct (3) + warrant bank + bands  wbank                     2.480  t2way   7.41  tyear   9.30  N=374  R2=0.746
+    share of (1) gone with the warrant bank 0.89; with bank and bands 0.97
+  matching in the small tercile: each VC firm to the nearest non-VC firm on standardized lnassets, lnage, loss, rnd_int, biotech, tech, foreign and IPO year (with replacement)
+    ATT lnproc            0.537  (se 0.068; treated 260, distinct controls 71)
+    ATT uw_warrants      -0.181  (se 0.032; treated 260, distinct controls 71)
+    ATT small_contract   -0.173  (se 0.032; treated 260, distinct controls 71)
+    ATT direct           -0.481  (se 0.122; treated 260, distinct controls 71)
+    balance (treated mean, matched control mean): {'lnassets': (np.float64(16.64), np.float64(16.36)), 'lnage': (np.float64(2.22), np.float64(2.19)), 'loss': (np.float64(0.94), np.float64(0.94)), 'rnd_int': (np.float64(0.66), np.float64(0.64))}
+  sensitivity (Oster 2019, delta for beta=0, Rmax = 1.3 R2) for VC -> small contract in the small tercile:
+    beta uncontrolled -0.521 (R2 0.279), controlled -0.360 (R2 0.416), delta 2.46
+
+== 6 robustness of the step (warrants and direct compensation below $25m vs $50-250m)
+  all: uw_warrants                   lt25                      0.840  t2way  41.84  tyear  34.71  N=1597  R2=0.706
+  all: direct                        lt25                      3.283  t2way  13.31  tyear  24.00  N=1597  R2=0.638
+  U.S. issuers: uw_warrants          lt25                      0.862  t2way  37.36  tyear  29.99  N=1263  R2=0.737
+  U.S. issuers: direct               lt25                      3.353  t2way  11.66  tyear  19.29  N=1263  R2=0.640
+  offer >= $5: uw_warrants           lt25                      0.835  t2way  34.75  tyear  31.63  N=1549  R2=0.684
+  offer >= $5: direct                lt25                      3.077  t2way  11.86  tyear  24.52  N=1549  R2=0.603
+  U.S., >= $5: uw_warrants           lt25                      0.858  t2way  31.61  tyear  31.14  N=1238  R2=0.727
+  U.S., >= $5: direct                lt25                      3.199  t2way  10.42  tyear  14.79  N=1238  R2=0.620
+  to 2020: uw_warrants               lt25                      0.816  t2way  27.50  tyear  25.19  N=1206  R2=0.646
+  to 2020: direct                    lt25                      3.361  t2way  11.02  tyear  19.75  N=1206  R2=0.610
+  not biotech: uw_warrants           lt25                      0.845  t2way  39.50  tyear  30.65  N=1053  R2=0.745
+  not biotech: direct                lt25                      3.529  t2way  12.40  tyear  18.71  N=1053  R2=0.673
+  ranked lead bank, with tier: uw_warrants lt25                      0.388  t2way   3.56  tyear   4.30  N=1468  R2=0.762
+  ranked lead bank, with tier: direct lt25                      1.927  t2way   5.05  tyear   7.35  N=1468  R2=0.642
+  with lead-bank fixed effects (banks leading >= 3 IPOs): the size step within banks
+  bank FE: uw_warrants               lt25                      0.180  t2way   3.43  tyear   2.84  N=1456  R2=0.855
+  bank FE: uw_warrants               mid                       0.019  t2way   1.08  tyear   0.78  N=1456  R2=0.855
+  bank FE: direct                    lt25                      1.434  t2way   3.66  tyear   5.54  N=1456  R2=0.715
+  bank FE: direct                    mid                       0.174  t2way   2.38  tyear   2.26  N=1456  R2=0.715
+
+== 7 robustness of the venture results (bottom third by assets, thirds recomputed in each sample)
+ all: N=433 (bank classified 374); no-VC 173, VC 260; warrants no-VC 0.64 vs VC 0.15
+  all: warrant bank                  vc                       -0.424  t2way  -8.73  tyear  -3.95  N=374  R2=0.393
+  all: warrants                      vc                       -0.403  t2way  -7.68  tyear  -3.80  N=374  R2=0.385
+  all: warrants | bank               vc                       -0.026  t2way  -1.43  tyear  -1.00  N=374  R2=0.877
+  all: direct                        vc                       -1.521  t2way  -5.91  tyear  -3.95  N=374  R2=0.366
+  all: direct | bank                 vc                       -0.174  t2way  -0.95  tyear  -1.07  N=374  R2=0.732
+    share through the bank: warrants 0.93, direct 0.89
+ U.S. issuers: N=374 (bank classified 333); no-VC 134, VC 240; warrants no-VC 0.62 vs VC 0.12
+  U.S. issuers: warrant bank         vc                       -0.462  t2way  -7.35  tyear  -4.43  N=333  R2=0.405
+  U.S. issuers: warrants             vc                       -0.447  t2way  -6.10  tyear  -4.31  N=333  R2=0.409
+  U.S. issuers: warrants | bank      vc                       -0.040  t2way  -1.90  tyear  -1.31  N=333  R2=0.879
+  U.S. issuers: direct               vc                       -1.764  t2way  -5.44  tyear  -5.31  N=333  R2=0.380
+  U.S. issuers: direct | bank        vc                       -0.296  t2way  -2.03  tyear  -1.61  N=333  R2=0.741
+    share through the bank: warrants 0.91, direct 0.83
+ offer >= $5: N=419 (bank classified 371); no-VC 137, VC 282; warrants no-VC 0.56 vs VC 0.12
+  offer >= $5: warrant bank          vc                       -0.384  t2way  -9.22  tyear  -3.77  N=371  R2=0.319
+  offer >= $5: warrants              vc                       -0.360  t2way  -6.64  tyear  -3.39  N=371  R2=0.324
+  offer >= $5: warrants | bank       vc                       -0.022  t2way  -1.49  tyear  -0.74  N=371  R2=0.870
+  offer >= $5: direct                vc                       -1.309  t2way  -6.49  tyear  -4.08  N=371  R2=0.288
+  offer >= $5: direct | bank         vc                       -0.154  t2way  -1.17  tyear  -1.01  N=371  R2=0.710
+    share through the bank: warrants 0.94, direct 0.88
+ U.S., >= $5: N=367 (bank classified 330); no-VC 115, VC 252; warrants no-VC 0.56 vs VC 0.11
+  U.S., >= $5: warrant bank          vc                       -0.423  t2way  -7.09  tyear  -4.11  N=330  R2=0.349
+  U.S., >= $5: warrants              vc                       -0.384  t2way  -5.70  tyear  -3.93  N=330  R2=0.351
+  U.S., >= $5: warrants | bank       vc                       -0.022  t2way  -0.89  tyear  -0.69  N=330  R2=0.849
+  U.S., >= $5: direct                vc                       -1.428  t2way  -5.29  tyear  -4.51  N=330  R2=0.318
+  U.S., >= $5: direct | bank         vc                       -0.158  t2way  -1.07  tyear  -0.78  N=330  R2=0.701
+    share through the bank: warrants 0.94, direct 0.89
+ to 2020: N=318 (bank classified 287); no-VC 95, VC 223; warrants no-VC 0.49 vs VC 0.11
+  to 2020: warrant bank              vc                       -0.367  t2way  -4.79  tyear  -3.33  N=287  R2=0.276
+  to 2020: warrants                  vc                       -0.337  t2way  -3.55  tyear  -3.02  N=287  R2=0.246
+  to 2020: warrants | bank           vc                       -0.003  t2way  -0.24  tyear  -0.11  N=287  R2=0.868
+  to 2020: direct                    vc                       -1.458  t2way  -3.88  tyear  -3.69  N=287  R2=0.266
+  to 2020: direct | bank             vc                       -0.262  t2way  -1.49  tyear  -1.42  N=287  R2=0.707
+    share through the bank: warrants 0.99, direct 0.82
+ without 2022: N=415 (bank classified 368); no-VC 146, VC 269; warrants no-VC 0.58 vs VC 0.12
+  without 2022: warrant bank         vc                       -0.451  t2way  -8.01  tyear  -4.16  N=368  R2=0.328
+  without 2022: warrants             vc                       -0.424  t2way  -6.63  tyear  -3.82  N=368  R2=0.294
+  without 2022: warrants | bank      vc                       -0.015  t2way  -1.10  tyear  -0.58  N=368  R2=0.871
+  without 2022: direct               vc                       -1.668  t2way  -6.07  tyear  -4.68  N=368  R2=0.296
+  without 2022: direct | bank        vc                       -0.228  t2way  -1.56  tyear  -1.48  N=368  R2=0.716
+    share through the bank: warrants 0.97, direct 0.86
+ not biotech: N=276 (bank classified 230); no-VC 134, VC 142; warrants no-VC 0.63 vs VC 0.13
+  not biotech: warrant bank          vc                       -0.407  t2way  -5.77  tyear  -4.04  N=230  R2=0.445
+  not biotech: warrants              vc                       -0.387  t2way  -4.57  tyear  -3.78  N=230  R2=0.410
+  not biotech: warrants | bank       vc                       -0.006  t2way  -0.21  tyear  -0.19  N=230  R2=0.914
+  not biotech: direct                vc                       -1.455  t2way  -3.78  tyear  -3.81  N=230  R2=0.371
+  not biotech: direct | bank         vc                        0.030  t2way   0.15  tyear   0.14  N=230  R2=0.782
+    share through the bank: warrants 0.99, direct 1.02
+
+== 8 classification check: hand codes of 100 prospectuses (33_validation_sample.py)
+hand          0   1  All
+uw_warrants             
+0            49   1   50
+1             2  48   50
+All          51  49  100
+  agreement: 0.97

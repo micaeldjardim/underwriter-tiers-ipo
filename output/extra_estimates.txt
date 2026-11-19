@@ -1,0 +1,27 @@
+columns with comment counts: ['rounds_conf', 'rounds_pub', 'comments_conf', 'comments_pub', 'first_letter', 'has_letters', 'comments_all', 'rounds_all', 'ln_comments_all', 'ln_comments_conf', 'ln_comments_pub', 'ln_rounds_all', 'ln_rounds_pub', 'ln_first_letter']
+
+== Panel C: confidential filers only (IPOs with letters)
+N confidential filers with letters: 749 | second division: 46 | raw share of comments in the public phase by tier: {'elite': 0.103, 'middle': 0.114, 'second': 0.217}
+  ln_comments_all    second   0.208 (t= 1.44)  elite  -0.020 (t=-0.71)  N=749
+  ln_comments_conf   second   0.144 (t= 1.13)  elite   0.001 (t= 0.03)  N=749
+  ln_comments_pub    second   0.461 (t= 2.24)  elite   0.004 (t= 0.08)  N=749
+  ln_rounds_conf     second  -0.009 (t=-0.15)  elite  -0.044 (t=-2.65)  N=749
+  ln_rounds_pub      second   0.300 (t= 2.75)  elite   0.031 (t= 0.65)  N=749
+  share_pub          second   0.053 (t= 2.13)  elite  -0.000 (t=-0.02)  N=749
+
+== public window and price revision, all IPOs
+  rev ~ lnpub + tiers + controls     lnpub  -4.635 (t=-3.13)  N=812
+  rev ~ lnpub + controls             lnpub  -3.382 (t=-3.76)  N=812
+  irw ~ lnpub + tiers + controls     lnpub  -2.531 (t=-0.81)  N=828
+
+== proceeds-decile fixed effects
+  cluster 2way      second  0.463 (t=  nan)  elite  0.040 (t= 1.44)
+  cluster yq        second  0.463 (t= 3.68)  elite  0.040 (t= 1.01)
+  cluster ipo_year  second  0.463 (t= 3.45)  elite  0.040 (t= 1.11)
+
+== second division by size and year
+  median proceeds by tier: {'elite': 191.2, 'middle': 81.6, 'second': 15.0}
+  second-division IPOs priced in 2021-2022: 32 of 55
+  proceeds <= $20M: second 35, ranked 5 or above 7
+  proceeds <= $40M: second 53, ranked 5 or above 28
+  proceeds <= $60M: second 55, ranked 5 or above 90

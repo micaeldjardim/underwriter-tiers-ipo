@@ -8,17 +8,17 @@ middle (5-8)          21.3          30.7           24.5           6.1         3.
 second (2-4)          21.3          34.8           22.5          12.3         4.1         2.5  123.1
 
 == L2  division effects (second, elite vs middle), controls + FE, two-way clusters
-  ln_first_letter    second    0.129 (t= 1.35)  elite    0.007 (t= 0.27)  mean= 3.04  N=821
-  ln_comments_all    second    0.034 (t= 0.19)  elite   -0.025 (t=-0.72)  mean= 3.35  N=825
-  ln_comments_conf   second   -0.641 (t=-1.82)  elite    0.039 (t= 0.48)  mean= 2.93  N=825
-  ln_comments_pub    second    0.735 (t= 3.82)  elite   -0.055 (t=-0.73)  mean= 1.33  N=825
-  ln_rounds_all      second    0.072 (t= 0.75)  elite   -0.009 (t=-0.36)  mean= 1.40  N=825
-  ln_rounds_pub      second    0.334 (t= 4.45)  elite    0.018 (t= 0.37)  mean= 0.72  N=825
+  ln_first_letter    second    0.133 (t= 1.42)  elite    0.004 (t= 0.18)  mean= 3.04  N=821
+  ln_comments_all    second    0.049 (t= 0.29)  elite   -0.032 (t=-0.83)  mean= 3.35  N=825
+  ln_comments_conf   second   -0.649 (t=-1.89)  elite    0.049 (t= 0.60)  mean= 2.93  N=825
+  ln_comments_pub    second    0.749 (t= 4.37)  elite   -0.066 (t=-0.86)  mean= 1.33  N=825
+  ln_rounds_all      second    0.083 (t= 0.87)  elite   -0.012 (t=-0.50)  mean= 1.40  N=825
+  ln_rounds_pub      second    0.346 (t= 4.97)  elite    0.013 (t= 0.27)  mean= 0.72  N=825
 
 == L3  public window and public amendments, with and without the public-phase comment load
-  lnpub    base       second    0.755 (t=15.98)  N=825
-  lnpub    + pub load second    0.611 (t=25.56)  comments    0.165 (t= 2.38)  rounds    0.070 (t= 0.58)
-  lnpub    + 1st ltr  second    0.689 (t= 7.18)  first letter    0.073 (t= 1.60)
-  lnamend  base       second    0.373 (t= 7.10)  N=825
-  lnamend  + pub load second    0.255 (t= 7.34)  comments    0.099 (t= 6.50)  rounds    0.135 (t= 3.25)
-  lnamend  + 1st ltr  second    0.352 (t= 7.40)  first letter    0.133 (t= 3.75)
+  lnpub    base       second    0.776 (t=14.34)  N=825
+  lnpub    + pub load second    0.628 (t=19.90)  comments    0.163 (t= 2.30)  rounds    0.075 (t= 0.61)
+  lnpub    + 1st ltr  second    0.714 (t= 7.01)  first letter    0.073 (t= 1.61)
+  lnamend  base       second    0.398 (t= 7.04)  N=825
+  lnamend  + pub load second    0.278 (t= 7.03)  comments    0.096 (t= 5.78)  rounds    0.141 (t= 3.12)
+  lnamend  + 1st ltr  second    0.377 (t= 7.45)  first letter    0.133 (t= 3.73)

@@ -65,6 +65,17 @@ t["rnd_pos"] = (t.rnd.fillna(0) > 0).astype(int)
 t["lev"] = (t.liabilities / t.assets).where(usd & (t.assets > 0)).clip(upper=5)
 t["shares"] = t.shares_offered.where(t.shares_offered > 1000)
 t["lnproc"] = np.log(t.offer * t.shares / 1e6)
+# Correction of 19 Nov 2026: offer price x shares fails when the cover states the securities in an unusual way (units,
+# ADSs, several classes). Where 30b_cover_total.py confirms gross proceeds by two readings of the cover and the value
+# differs, the confirmed value replaces the product. IPOs whose proceeds were missing stay missing, so the sample of
+# IPOs with every control is unchanged.
+_ct = U / "cover_total.csv"
+if _ct.exists():
+    _c = pd.read_csv(_ct); _c = _c[_c.proceeds_m.notna() & (_c.single == 0)].set_index("key")["proceeds_m"]
+    _new = np.log(t.key.map(_c))
+    _fix = t.lnproc.notna() & _new.notna() & ((np.exp(_new) - np.exp(t.lnproc)).abs() / np.exp(_new) > 0.02)
+    print("proceeds corrected from the cover:", int(_fix.sum()))
+    t.loc[_fix, "lnproc"] = _new[_fix]
 t["secondary"] = (t.secondary_shares > 0).astype(int)
 t["nasdaq"] = t.exch_424.fillna("").str.contains("NASDAQ").astype(int)
 t["sic2"] = (t.sic // 100).astype(int)

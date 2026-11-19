@@ -10,7 +10,7 @@
                uw                    Lead underwriter rank 828   8.181    1.598  8.000   9.000   9.000
            second               Second division (rank 2-4) 828   0.066    0.249  0.000   0.000   0.000
             elite                           Elite (rank 9) 828   0.665    0.472  0.000   1.000   1.000
-             proc                     Proceeds ($ million) 828 286.830  634.217 75.030 131.014 266.167
+             proc                     Proceeds ($ million) 828 287.701  634.543 75.000 131.425 266.670
          assets_m                 Total assets ($ million) 828 818.187 2658.834 45.819 108.866 404.777
               age                         Firm age (years) 828  16.287   20.559  6.000  10.000  17.000
                vc                                VC-backed 828   0.675    0.469  0.000   1.000   1.000
@@ -41,22 +41,22 @@ uncertainty_first                    Uncertainty words (%) 828   1.504    0.188 
 
 == S2  clusters in the estimation sample: industries 45  issue quarters 42  IPO years 11
 outcome                      var       coef  t 2way   t qtr  t year  wild p     R2     N
-ln public window             second   0.758   14.78    6.87    5.45   0.002  0.468   828
-ln(1+public amendments)      second   0.375    7.23    5.28    3.77   0.002  0.368   828
-ln confidential phase        second   0.132    0.90    0.76    0.73   0.467  0.205   752
-ln(1+confidential drafts)    second  -0.017   -0.31   -0.30   -0.35   0.730  0.260   752
-ln total registration        second   0.253    1.67    2.05    1.79   0.097  0.267   828
+ln public window             second   0.779   13.45    6.93    5.60   0.002  0.467   828
+ln(1+public amendments)      second   0.401    7.16    5.70    4.29   0.003  0.366   828
+ln confidential phase        second   0.108    0.78    0.63    0.65   0.497  0.207   752
+ln(1+confidential drafts)    second  -0.008   -0.15   -0.14   -0.15   0.885  0.260   752
+ln total registration        second   0.246    1.71    2.01    1.89   0.050  0.269   828
 price revision, %            elite    8.531   14.13    5.91    5.96   0.001  0.329   812
 first-day return, %          elite    5.765    2.72    2.18    2.06   0.023  0.175   828
-ln(1+comments), all          second   0.034    0.19    0.23    0.30   0.746  0.380   825
-ln(1+comments), public       second   0.735    3.82    3.15    3.51   0.004  0.425   825
-ln(1+rounds), public         second   0.334    4.45    3.36    2.91   0.003  0.291   825
-ln first letter              second   0.129    1.35    1.74    1.76   0.214  0.415   821
+ln(1+comments), all          second   0.049    0.29    0.35    0.46   0.605  0.381   825
+ln(1+comments), public       second   0.749    4.37    3.38    3.52   0.011  0.425   825
+ln(1+rounds), public         second   0.346    4.97    3.60    3.20   0.004  0.291   825
+ln first letter              second   0.133    1.42    1.81    1.86   0.190  0.415   821
 
 == S3  Table 'public comment load': second-division t under IPO-year clustering
-  lnpub    base            second  0.755  t 2way  15.98  t year  5.55  R2 0.469  N 825
-  lnpub    + public load   second  0.611  t 2way  25.56  t year  5.32  R2 0.540  N 825
-  lnpub    + first letter  second  0.689  t 2way   7.18  t year  4.14  R2 0.472  N 821
-  lnamend  base            second  0.373  t 2way   7.10  t year  3.78  R2 0.368  N 825
-  lnamend  + public load   second  0.255  t 2way   7.34  t year  3.18  R2 0.506  N 825
-  lnamend  + first letter  second  0.352  t 2way   7.40  t year  3.62  R2 0.385  N 821
+  lnpub    base            second  0.776  t 2way  14.34  t year  5.69  R2 0.468  N 825
+  lnpub    + public load   second  0.628  t 2way  19.90  t year  5.25  R2 0.538  N 825
+  lnpub    + first letter  second  0.714  t 2way   7.01  t year  4.37  R2 0.471  N 821
+  lnamend  base            second  0.398  t 2way   7.04  t year  4.30  R2 0.366  N 825
+  lnamend  + public load   second  0.278  t 2way   7.03  t year  3.64  R2 0.503  N 825
+  lnamend  + first letter  second  0.377  t 2way   7.45  t year  4.15  R2 0.383  N 821

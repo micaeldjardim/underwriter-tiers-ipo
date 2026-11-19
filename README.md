@@ -10,7 +10,7 @@ The paper rebuilds the SEC registration history of 1,039 U.S. IPOs priced from 2
 
 | Folder | Contents |
 |---|---|
-| `code/` | Python scripts `11`–`25`, run in numeric order (see below) |
+| `code/` | Python scripts `11`–`25b` for the first paper and `27`–`33` for the second (see below) |
 | `data/universe/` | Derived data, one row per IPO, keyed by `key` |
 | `data/text/` | Lists of every EDGAR document and SEC letter used, with accession numbers (`docs.csv`, `letters.csv`) |
 | `data/market_index.csv` | Daily S&P 500, Russell 2000 (IWM) and Nasdaq Composite closes from Yahoo Finance |
@@ -59,7 +59,7 @@ python code/25_descriptives_inference.py # Table 2; year-clustered t and wild-bo
 
 `21` reads the EDGAR submission files that `11` saves in `data/edgar/submissions/`, so run `11` first.
 
-`25` needs the licensed first-day returns for its first-day-return rows, like `16`. On the published files, two of its wild-bootstrap p-values differ from the paper in the third decimal (0.727 for 0.730 and 0.002 for 0.003); every coefficient and t-statistic matches.
+`25` needs the licensed first-day returns for its first-day-return rows, like `16`. On the published files its wild-bootstrap p-values can differ from the paper in the third decimal; coefficients and t-statistics match.
 
 On the published files, every estimate for review time, amendments, price revisions, exits, SEC workload and the Nasdaq 2019 rule reproduces the paper exactly. That covers 46 of the 52 rows in `divisions_estimates.csv` and all 19 rows in `identification_estimates.csv`. The six first-day-return rows need the licensed returns. If `analysis.csv` has no `ir` column, `16` falls back to the Yahoo return. To match the paper, add your own `ir` (offer price to first close, in percent) from Bloomberg or CRSP.
 
@@ -78,6 +78,36 @@ python code/19_sec_workload.py
 ```
 
 Scripts `11`, `12`, `13`, `18` and `19` download several thousand EDGAR documents within the SEC's rate limit, so expect them to run for hours.
+
+## Correction of 19 November 2026: gross proceeds
+
+Proceeds were computed as offer price times the number of shares read on the prospectus cover. That fails when the cover states the securities in an unusual way (units, ADSs, several classes of shares). `30b_cover_total.py` now reads gross proceeds three ways from the cover (price times securities, the total on the price line, and price times total discount over discount per security) and keeps the value on which two readings agree within 2%. `15_universe_build.py` replaces the old value where the confirmed one differs: 18 of the 1,039 IPOs in `analysis.csv`, 13 of them among the 828 with every control. Proceeds enter the first paper as a control (`lnproc`). The sample is unchanged and the estimates move slightly; the second-division effect on the public window goes from 0.758 to 0.779. Every file in `output/` was regenerated, and `25b_extra_estimates.py` saves the estimates quoted in the text that the other scripts did not write to disk (`output/extra_estimates.txt`).
+
+## Second paper: underwriter compensation
+
+The repository also holds the files of a second paper that uses the same collection of filings and none of the first paper's outcomes:
+
+> Jardim, M. *The ten percent offering: Endorsement, bank segments, and what small firms pay to go public.* Working paper, 2026.
+
+It reads from each final prospectus what the lead bank was paid (cash spread, underwriter warrants, non-accountable expense allowance) and relates it to the size of the offering, the identity of the lead bank and venture backing, in 1,597 IPOs (foreign issuers and offerings priced below $5 are kept).
+
+| File | Contents | Built by |
+|---|---|---|
+| `data/universe/issuer_prospectus.csv` | Spread, underwriter-warrant indicator and other fields read from the final prospectus, all 1,999 matched IPOs | `27` |
+| `data/universe/warrant_terms.csv` | Warrant coverage, exercise price, term, expense allowance and Black-Scholes value | `27b` |
+| `data/universe/cover_fill.csv`, `cover_total.csv` | Offer price, securities sold and gross proceeds read again from the cover | `30a`, `30b` |
+| `data/universe/paper_b.csv` | The sample of the second paper with every variable | `30` |
+| `data/universe/validation_sample.csv`, `validation_handcodes.csv` | 100 prospectuses drawn at random and coded by hand to check the warrant indicator (97 agree) | `33` |
+| `output/paper_b_results.txt`, `paper_b_sample_log.csv`, `paper_b_fig1_contracts.pdf` | Every estimate, the sample steps and Figure 1 | `31`, `32` |
+
+To reproduce the tables from the published files:
+
+```
+python code/31_paper_b_analysis.py   # all tables; about 15 minutes (bootstrap of the size cutoff)
+python code/32_paper_b_figure.py     # Figure 1
+```
+
+`27`, `27b`, `30a`, `30b` and `33` read the text of the prospectuses, which `21` downloads into `data/text/`. Run them in that order, then `30`, before `31`.
 
 ## Licence
 
